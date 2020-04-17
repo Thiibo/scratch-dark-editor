@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link href="./index.css" rel="stylesheet">
+    <link href="./libs/color-picker.min.css" rel="stylesheet">
+    <title>Dark Scratch Editor</title>
+  </head>
+  <body>
+    <main>
+      <h1>UserScript installer</h1>
+      <section id="options">
+        <div class="option">
+          <label>Theme: </label>
+          <div id="theme" class="select">
+            <div class="select-head">Classic</div>
+            <div class="options">
+              <div id="theme-classic" class="select-option selected">Classic</div>
+              <div id="theme-seablue" class="select-option">Sea Blue</div>
+              <div id="theme-deepblack" class="select-option">Deep Black</div>
+            </div>
+          </div>
+        </div>
+        <div class="option">
+          <label for="customthemecolor">Custom theme colors:</label>
+          <input id="customthemecolor" type="checkbox" name="customthemecolor">
+          <div id="customthemecolorsettings">
+            <label for="primarycolor">Primary:</label>
+            <input id="primarycolor" type="color" type="text" name="primarycolor">
+            <label for="secundarycolor">Secundary:</label>
+            <input id="secundarycolor" type="color" type="text" name="secundarycolor">
+          </div>
+        </div>
+      </section>
+    </main>
+    <script type="text/javascript" src="./libs/color-picker.min.js"></script>
+    <script type="text/javascript" src="./index.js"></script>
+  </body>
+</html>
