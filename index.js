@@ -13,6 +13,12 @@ function open(text) {
   delete a;
 }
 
+async function getData(url) {
+    const response = await fetch(url);
+
+    return response.text();
+}
+
 const $install = document.getElementById('install');
 
 let theme = 1;
@@ -59,9 +65,8 @@ document.addEventListener("DOMContentLoaded", function() {
   $customthemecol.checked ? $customthemecol.nextElementSibling.classList.add('open') : $customthemecol.nextElementSibling.classList.remove('open');
 
 
-  $install.addEventListener('click', function() {
-    let final = `
-    // ==UserScript==
+  $install.addEventListener('click', async function() {
+    let final = `// ==UserScript==
     // @name          Dark Scratch Editor
     // @namespace     https://thiibo.github.io
     // @description   Want to code with Scratch, but the editor is too bright? This style applies a dark theme to the online Scratch (3) editor so you can code in peace.
@@ -89,22 +94,20 @@ document.addEventListener("DOMContentLoaded", function() {
       default:
         themelink = "./themes/classic.css"
     }
-    let themecss;
-    fetch(themelink)
-    .then( response => response.text() )
-    .then( text => themecss = text.split(/\r?\n/) );
-    let style;
-    fetch("./userstyle.css")
-    .then( response => response.text() )
-    .then( text => style = text.split(/\r?\n/) );
+    let themecss = await getData(themelink);
+    themecss = themecss.split(/\r?\n/);
+    console.log(themecss);
+    let style = await getData("./userstyle.css");
+    style = style.split(/\r?\n/);
+    console.log(style);
     let customcolorscss;
     if ($customthemecol.checked) {
-      fetch("./customcolors.css")
-      .then( response => response.text() )
-      .then( text => customcolorscss = text.split(/\r?\n/) );
+      customcolorscss = await getData("./customcolors.css");
+      customcolorscss = customcolorscss.split(/\r?\n/);
     } else {
-      customcolorscss = "// Custom theme colors disabled";
+      customcolorscss = ["// Custom theme colors disabled"];
     }
+    console.log(customcolorscss);
 
     let j = 0;
     for (var i = 0; i < themecss.length; i++) {
@@ -117,7 +120,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
 
-    for (var i = 0; i < style.length; i++) final += '"' + (style[i].trim() == '%s' ? customcolorscss : style[i]) + '"' + (i < style.length - 1 ? ',' : '');
+    for (var i = 0; i < style.length; i++) final += '"' + (style[i].trim() == '%s' ? customcolorscss : style[i]) + '"' + (i < style.length - 1 ? ',\n' : '');
 
     final += `].join("\n");
 if (typeof GM_addStyle != "undefined") {
@@ -141,6 +144,6 @@ if (heads.length > 0) {
 })();`
 
     console.log(final);
-    open(final);
+    // open(final);
   });
 });

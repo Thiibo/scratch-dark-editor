@@ -66,8 +66,8 @@
   /* Text color */
   --c32: white;
   /* Theme */
-  --c40: /*[[themecol1]]*/;
-  --c41: /*[[themecol2]]*/;
+  --c40: %s;
+  --c41: %s;
   /* Sound Levels */
   --c500: rgb(255, 113, 113);
   --c501: rgb(234, 119, 119);
