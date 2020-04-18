@@ -92,16 +92,16 @@ document.addEventListener("DOMContentLoaded", function() {
     let themecss;
     fetch(themelink)
     .then( response => response.text() )
-    .then( text => themecss = text.split(/\r?\n/); );
+    .then( text => themecss = text.split(/\r?\n/) );
     let style;
     fetch("./userstyle.css")
     .then( response => response.text() )
-    .then( text => style = text.split(/\r?\n/); );
+    .then( text => style = text.split(/\r?\n/) );
     let customcolorscss;
     if ($customthemecol.checked) {
       fetch("./customcolors.css")
       .then( response => response.text() )
-      .then( text => customcolorscss = text.split(/\r?\n/); );
+      .then( text => customcolorscss = text.split(/\r?\n/) );
     } else {
       customcolorscss = "// Custom theme colors disabled";
     }
