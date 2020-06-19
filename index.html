@@ -9,7 +9,7 @@
   </head>
   <body>
     <main>
-      <h1>UserScript installer</h1>
+      <h1>Dark Scratch Editor</h1>
       <section id="options">
         <div class="option">
           <label>Theme: </label>
@@ -26,14 +26,28 @@
           <label for="customthemecolor">Custom theme colors:</label>
           <input id="customthemecolor" type="checkbox" name="customthemecolor">
           <div id="customthemecolorsettings">
-            <label for="primarycolor">Primary:</label>
-            <input id="primarycolor" type="color" type="text" name="primarycolor">
-            <label for="secundarycolor">Secundary:</label>
-            <input id="secundarycolor" type="color" type="text" name="secundarycolor">
+            <div class="color">
+              <label for="primarycolor">Primary:</label>
+              <div class="colorinput" id="primarycolor"></div>
+            </div>
+            <div class="color">
+              <label for="secundarycolor">Secundary:</label>
+              <div class="colorinput" id="secundarycolor"></div>
+            </div>
           </div>
         </div>
+        <div id="confirm">
+          <button id="getcss" type="button" name="getcss">Get CSS</button>
+          <button id="getuserjs" type="button" name="getuserjs">Get UserJS</button>
+        </div>
       </section>
-      <button id="install" type="button" name="install">Install</button>
+      <section id="code">
+        <textarea id="output" name="output" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"></textarea>
+        <div id="codecontrol">
+          <button class="return" type="button" name="return">❮</button>
+          <button class="copy" type="button" name="copy"><img src="./img/copy.png"><span>Copy</span></button>
+        </div>
+      </section>
     </main>
     <script type="text/javascript" src="./libs/color-picker.min.js"></script>
     <script type="text/javascript" src="./index.js"></script>
