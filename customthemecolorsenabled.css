@@ -1,0 +1,77 @@
+.gui_tab_27Unf.gui_is-selected_sHAiu span, .font-dropdown_displayed-font-name_ueeH4, .dropdown_dropdown_yOinO, .camera-modal_capture-text_1pklP, .camera-modal_button-row_19XkT button, .record-modal_button-row_1hdGe button, .record-modal_playing-text_1tknI {color: var(--c40);}
+.gui_extension-button-container_b4rCs, .delete-button_delete-button-visible_kym6v, .action-menu_button_1qbot, .action-menu_more-buttons-outer_3J9yZ, .action-menu_tooltip_3Bkh5, .action-menu_tooltip_3Bkh5::after, .sound-editor_round-button_3NLcW, .audio-trimmer_selection-background_3LBuB, .tool-select-base_mod-tool-select_1iD-h.tool-select-base_is-selected_3x4kL, .tag-button_tag-button_nBLRM, .tool-select-base_mod-tool-select_1iD-h:not(.tool-select-base_is-selected_3x4kL):active, .action-menu_button_1qbot:hover, .camera-modal_main-button_1G6x1, .card_see-all-button_3o4U8 {background-color: var(--c40) !important;}
+
+.gui_extension-button-container_b4rCs, .sprite-info_radio-first_3xgJB:focus, .sprite-info_radio-last_3Ps65:focus, .input_input-form_l9eYg:focus, .input_input-form_1Y0wX:focus, .input_input-form_l9eYg:hover, .input_input-form_1Y0wX:hover, .audio-trimmer_selector_DDQ2- .audio-trimmer_trim-line_2cpoE, .spinner_spinner_2Op8D.spinner_primary_32PLs {border-color: var(--c40);}
+.spinner_spinner_2Op8D.spinner_primary_32PLs::after {border-top-color: var(--c40);}
+.audio-trimmer_playhead_3A0k9 {border-left-color: var(--c40);}
+
+.delete-button_delete-button-visible_kym6v {box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2), 0 0 0 2px var(--c40);}
+.input_input-form_l9eYg:focus, .input_input-form_1Y0wX:focus, .sound-editor_round-button_3NLcW {box-shadow: 0 0 0 4px rgba(20, 20, 20, 0.5), 0 0 0 4px var(--c40);}
+.action-menu_main-button_3ccfy, .filter_filter_1JFal:focus-within, .camera-modal_main-button_1G6x1 {box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.2), 0 0 0 4px var(--c40);}
+.action-menu_main-button_3ccfy:hover, .camera-modal_main-button_1G6x1:hover {box-shadow: 0 0 0 6px rgba(0, 0, 0, 0.2), 0 0 0 6px var(--c40);}
+
+.blocklyFlyoutButton:hover text {fill: var(--c40) !important; stroke: none;}
+.blocklyFlyoutButton:hover .blocklyFlyoutButtonBackground {stroke: var(--c40) !important}
+.checked > .blocklyFlyoutCheckbox {
+    fill: var(--c40);
+    stroke: var(--c10);
+}
+/* The magic filter (turns images into the right color according to a HEX color value) */
+.gui_tab_27Unf.gui_is-selected_sHAiu img, .stage-header_stage-size-toggle-group_17LtK .button_outlined-button_1bS__:not(.stage-header_stage-button-toggled-off_AJ8yG) .button_content_3jdgj img, .sprite-info_radio_v-fgn .sprite-info_icon_1iZ_9, .fixed-tools_button-group-button-icon_1cr4a, .labeled-icon-button_edit-field-icon_3j-Pf, .mode-tools_mode-tools-icon_23c7i, .direction-picker_active_10_kJ img, .dial_dial-face_3NuSA, .dial_dial-handle_1tfZT, .fixed-tools_menu-item-icon_1W1tH, .sound-editor_undo-icon_So0sO, .sound-editor_redo-icon_XGcr5, .sound-editor_row_3iFzH .audio-trimmer_trim-handle_1Obhp img, .dropdown_dropdown_yOinO img, .sound-editor_editor-container_iUSW- :first-child .sound-editor_tool-button_2iNn9 img, .camera-modal_button-row_19XkT button img, .record-modal_button-row_1hdGe button img, .record-modal_main-button-row_37Zjz button img {
+    -webkit-filter: opacity(50%) grayscale(100%) drop-shadow(0 0 0 var(--c40)) contrast(400%) !important;
+    -moz-filter: opacity(50%) grayscale(100%) drop-shadow(0 0 0 var(--c40)) contrast(400%) !important;
+    -o-filter: opacity(50%) grayscale(100%) drop-shadow(0 0 0 var(--c40)) contrast(400%) !important;
+    filter: opacity(50%) grayscale(100%) drop-shadow(0 0 0 var(--c40)) contrast(400%) !important;
+}
+/* Same filter, but also makes the images brighter */
+.stage-header_stage-size-row_14N65 > :nth-child(2) img, .sprite-info_row-primary_10JrS .sprite-info_icon_1iZ_9, .stage-header_stage-header-wrapper-overlay_5vfJa .stage-header_stage-button_hkl9B img {
+    -webkit-filter: opacity(50%) grayscale(100%) brightness(1.4) drop-shadow(0 0 0 var(--c40)) contrast(400%) !important;
+    -moz-filter: opacity(50%) grayscale(100%) brightness(1.4) drop-shadow(0 0 0 var(--c40)) contrast(400%) !important;
+    -o-filter: opacity(50%) grayscale(100%) brightness(1.4) drop-shadow(0 0 0 var(--c40)) contrast(400%) !important;
+    filter: opacity(50%) grayscale(100%) brightness(1.4) drop-shadow(0 0 0 var(--c40)) contrast(400%) !important;
+}
+.dial_gauge-path_1WoJ6 {
+    fill: var(--c40);
+    fill-opacity: 0.3;
+    stroke: var(--c40);
+}
+.tool-select-base_mod-tool-select_1iD-h:not(.tool-select-base_is-selected_3x4kL):active {
+    -webkit-filter: brightness(0.7);
+    -moz-filter: brightness(0.7);
+    -o-filter: brightness(0.7);
+    filter: brightness(0.7);
+}
+.action-menu_button_1qbot:hover, .spinner_spinner_2Op8D.spinner_primary_32PLs {
+    -webkit-filter: brightness(0.9);
+    -moz-filter: brightness(0.9);
+    -o-filter: brightness(0.9);
+    filter: brightness(0.9);
+}
+.spinner_spinner_2Op8D.spinner_primary_32PLs::after {
+    -webkit-filter: brightness(1.5);
+    -moz-filter: brightness(1.5);
+    -o-filter: brightness(1.5);
+    filter: brightness(1.5);
+}
+.tool-select-base_mod-tool-select_1iD-h:not(.tool-select-base_is-selected_3x4kL):active img {
+    -webkit-filter: grayscale(100%) brightness(6);
+    -moz-filter: grayscale(100%) brightness(6);
+    -o-filter: grayscale(100%) brightness(6);
+    filter: grayscale(100%) brightness(6);
+}
+
+/*- Secundary -*/
+.record-modal_recording-text_2LS7_ {color: var(--c41)}
+.share-button_share-button_Nxxf0, .tag-button_active_2stEz {background-color: var(--c41) !important;}
+.record-modal_record-button-circle_kXioI, .record-modal_record-button-circle-outline_1ycFu {
+    fill: var(--c41);
+}
+.record-modal_record-button-circle_kXioI {
+    stroke: var(--c41);
+}
+.record-modal_main-button-row_37Zjz button img[src="/static/assets/993a0700d8a0972d309307b0a4688ed7.svg"] {
+    -webkit-filter: opacity(50%) grayscale(100%) drop-shadow(0 0 0 var(--c41)) contrast(400%) !important;
+    -moz-filter: opacity(50%) grayscale(100%) drop-shadow(0 0 0 var(--c41)) contrast(400%) !important;
+    -o-filter: opacity(50%) grayscale(100%) drop-shadow(0 0 0 var(--c41)) contrast(400%) !important;
+    filter: opacity(50%) grayscale(100%) drop-shadow(0 0 0 var(--c41)) contrast(400%) !important;
+}

@@ -1,0 +1,6 @@
+@name           Dark Scratch Editor
+@namespace      Github
+@author         Thiibo
+@description    `Want to code with Scratch, but the editor is too bright? This style applies a dark theme to the online Scratch (3) editor so you can code in peace.`
+@version        3.0.0
+@license        CC-BY-4.0
