@@ -10,9 +10,9 @@ def main():
     settings = getSettings()
 
     # Get base and header
-    with open(cd + '/../base.css') as f:
+    with open(cd + '/../style/base.css') as f:
         base = f.read()
-    with open(cd + '/../header.txt') as f:
+    with open(cd + '/../style/header.txt') as f:
         header = f.read()
 
     # Write userCSS header

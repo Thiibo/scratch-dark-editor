@@ -7,11 +7,11 @@ def getSettings():
     cd = dirname(__file__)
 
     # Load themes
-    themeFiles = [f for f in listdir(cd + "/../themes/") if isfile(join(cd + "/../themes/", f))]
+    themeFiles = [f for f in listdir(cd + "/../style/themes/") if isfile(join(cd + "/../style/themes/", f))]
     themes = dict()
     for themeFile in themeFiles:
         themeId = themeFile.split('.')[0]
-        with open(cd + '/../themes/' + themeFile) as f:
+        with open(cd + '/../style/themes/' + themeFile) as f:
             themeLines = f.readlines()
         themeName = themeLines[0][3:-4]
         themeLines.pop(0)
@@ -22,7 +22,7 @@ def getSettings():
         }
     
     # Load custom theme colors
-    with open(cd + '/../customthemecolorsenabled.css') as f:
+    with open(cd + '/../style/customthemecolorsenabled.css') as f:
         customthemecolorsContent = f.read()
 
     # Setup settings

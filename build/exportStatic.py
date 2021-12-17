@@ -10,7 +10,7 @@ def main(args):
     cd = dirname(__file__)
 
     # Get base
-    with open(cd + '/../base.css') as f:
+    with open(cd + '/../style/base.css') as f:
         base = f.read()
 
     # Get settings
