@@ -18,14 +18,22 @@ def main():
     # Write userCSS header
     userCSS = "/* ==UserStyle==\n" + header + "\n"
     userCSSSettings = ""
+    
     for settingId, settingVal in settings.items():
-        if settingVal['type'] == 'dropdown':
-            userCSSSettings += f"@advanced dropdown {settingId} \"{settingVal['title']}\" {{\n"
-            for optionId, optionVal in settingVal['options'].items():
-                userCSSSettings += f"\t{settingId}--{optionId} \"{optionVal['title']}{'*' if settingVal['default'] == optionId else ''}\" <<<EOT {optionVal['content']} EOT;\n"
-            userCSSSettings += "}\n"
-        elif settingVal['type'] == 'color':
-            userCSSSettings += f"@advanced color {settingId} \"{settingVal['title']}\" {settingVal['default']}\n"
+        match settingVal['type']:
+            case ('dropdown' | 'image'):
+                userCSSSettings += f"@advanced dropdown {settingId} \"{settingVal['title']}\" {{\n"
+                for optionId, optionVal in settingVal['options'].items():
+                    userCSSSettings += f"\t{settingId}--{optionId} \"{optionVal['title']}{'*' if settingVal['default'] == optionId else ''}\" <<<EOT {optionVal['content']} EOT;\n"
+                userCSSSettings += "}\n"
+
+            case 'color':
+                userCSSSettings += f"@advanced color {settingId} \"{settingVal['title']}\" {settingVal['default']}\n"
+
+            case _:
+                print(f"Error: Setting '{settingId}' has unknown type '{settingVal['type']}'")
+                exit()
+
     userCSS += userCSSSettings.replace('*/', '*\\/')
     userCSS += "\n==/UserStyle== */\n\n"
 

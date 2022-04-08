@@ -21,7 +21,7 @@ def getSettings():
             "content": ''.join(themeLines)
         }
     
-    # Load custom theme colors
+    # Load custom theme colors css
     with open(cd + '/../style/customthemecolorsenabled.css') as f:
         customthemecolorsContent = f.read()
 
@@ -33,7 +33,7 @@ def getSettings():
             "options": themes,
             "default": "classic",
         },
-        "customthemecolors": {
+        "customthemecolorsCSS": {
             "title": "Enable custom theme colors?",
             "type": "dropdown",
             "options": {

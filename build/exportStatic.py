@@ -23,9 +23,9 @@ def main(args):
         else:
             val = args[i]
         
-        if settingVal['type'] == 'dropdown':
+        if settingVal['type'] == 'dropdown' or settingVal['type'] == 'image' :
             if val not in settingVal['options']:
-                print(f"Error: '{val}' is not recognized as a possible option for the dropdown '{settingId}'")
+                print(f"Error: '{val}' is not recognized as a possible option for the {'image' if settingVal['type'] == 'image' else '(regular)'} dropdown '{settingId}'")
                 exit()
             localVars[settingId] = settingVal['options'][val]['content']
 
