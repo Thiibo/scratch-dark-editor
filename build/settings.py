@@ -134,7 +134,7 @@ def getSettings():
                     "content": "https://wallpapers.com/images/high/cool-3d-roblox-avatar-e5o3rq8aiudhydd6.jpg" # Credit to svettyk86 at https://wallpapers.com/wallpapers/cool-3d-roblox-avatar-e5o3rq8aiudhydd6.html
                 }
             },
-            "default": "space"
+            "default": "space1"
         }
     }
     return settings
