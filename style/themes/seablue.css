@@ -2,7 +2,6 @@
 :root {
     /* ============================= Selected theme: Sea Blue ============================= */
     /* Shades of black */
-        --cnn: none;
         --c00: #0f1015;
         --c01: #1f212d;
         --c02: #2e2b39;
@@ -94,4 +93,7 @@
         --c511: rgb(236, 222, 105);
         --c520: rgb(143, 213, 119);
         --c521: rgb(111, 196, 98);
+
+    /* Miscellaneous properties */
+        --cwb: #2a2b3599; /* Block workspace background */
 }
