@@ -1,0 +1,39 @@
+/* Type one: elements on left of screen*/
+.gui_tab_27Unf.gui_is-selected_sHAiu img, .fixed-tools_button-group-button-icon_1cr4a, .labeled-icon-button_edit-field-icon_3j-Pf, .fixed-tools_menu-item-icon_1W1tH, .sound-editor_undo-icon_So0sO, .sound-editor_redo-icon_XGcr5, .sound-editor_row_3iFzH .audio-trimmer_trim-handle_1Obhp img, .dropdown_dropdown_yOinO img, .sound-editor_editor-container_iUSW- :first-child .sound-editor_tool-button_2iNn9 img {
+    -webkit-filter: opacity(50%) grayscale(100%) drop-shadow(0 0 0 var(--c40)) contrast(400%) !important;
+    -moz-filter: opacity(50%) grayscale(100%) drop-shadow(0 0 0 var(--c40)) contrast(400%) !important;
+    -o-filter: opacity(50%) grayscale(100%) drop-shadow(0 0 0 var(--c40)) contrast(400%) !important;
+    filter: drop-shadow(-46px -46px 0 var(--c40)) !important;
+    transform: translateX(46px) translateY(46px);
+    clip-path: polygon(-46px -46px, 0 -46px, 0 0, -46px 0);
+}
+/* Type two: elements on right of screen*/
+.stage-header_stage-size-toggle-group_17LtK .button_outlined-button_1bS__:not(.stage-header_stage-button-toggled-off_AJ8yG) .button_content_3jdgj img, .sprite-info_radio_v-fgn .sprite-info_icon_1iZ_9, .direction-picker_active_10_kJ img, .record-modal_button-row_1hdGe button img, .record-modal_main-button-row_37Zjz button img {
+    -webkit-filter: opacity(50%) grayscale(100%) drop-shadow(0 0 0 var(--c40)) contrast(400%) !important;
+    -moz-filter: opacity(50%) grayscale(100%) drop-shadow(0 0 0 var(--c40)) contrast(400%) !important;
+    -o-filter: opacity(50%) grayscale(100%) drop-shadow(0 0 0 var(--c40)) contrast(400%) !important;
+    filter: drop-shadow(46px 46px 0 var(--c40)) !important;
+    transform: translateX(-46px) translateY(-46px);
+    clip-path: polygon(92px 92px, 46px 92px, 46px 46px, 92px 46px);
+}
+
+/*- Some fixes for Gecko browsers -*/
+.dial_dial-face_3NuSA, .dial_dial-handle_1tfZT {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.direction-picker_icon-button_1y9Rd img {
+    transition: none;
+}
+
+/*- Secundary color -*/
+.record-modal_main-button-row_37Zjz button img[src="/static/assets/993a0700d8a0972d309307b0a4688ed7.svg"] {
+    -webkit-filter: opacity(50%) grayscale(100%) drop-shadow(0 0 0 var(--c41)) contrast(400%) !important;
+    -moz-filter: opacity(50%) grayscale(100%) drop-shadow(0 0 0 var(--c41)) contrast(400%) !important;
+    -o-filter: opacity(50%) grayscale(100%) drop-shadow(0 0 0 var(--c41)) contrast(400%) !important;
+    filter: drop-shadow(60px 60px 0 var(--c41)) !important;
+    transform: translateX(-60px) translateY(-60px);
+    clip-path: polygon(120px 120px, 60px 120px, 60px 60px, 120px 60px);
+}

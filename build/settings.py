@@ -25,6 +25,12 @@ def getSettings():
     with open(cd + '/../style/customthemecolorsenabled.css') as f:
         customthemecolorsContent = f.read()
 
+    with open(cd + '/../style/customthemecolorsenabled_chromium.css') as f:
+        customthemecolorsContentChromium = f.read()
+
+    with open(cd + '/../style/customthemecolorsenabled_gecko.css') as f:
+        customthemecolorsContentGecko = f.read()
+
     # Load background image css
     with open(cd + '/../style/backgroundimageenabled.css') as f:
         backgroundImageContent = f.read()
@@ -135,6 +141,21 @@ def getSettings():
                 }
             },
             "default": "space1"
+        },
+        "optimiseCSS": {
+            "title": "Optimise install for",
+            "type": "dropdown",
+            "options": {
+                "chromium": {
+                    "title": "Chrome/Brave/Edge/Opera",
+                    "content": customthemecolorsContentChromium
+                },
+                "gecko": {
+                    "title": "Firefox/Waterfox",
+                    "content": customthemecolorsContentGecko
+                }
+            },
+            "default": "chromium"
         }
     }
     return settings
