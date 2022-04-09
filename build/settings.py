@@ -131,6 +131,18 @@ def getSettings():
                     "title": "Chess",
                     "content": "https://cdn.pixabay.com/photo/2016/11/21/17/50/king-1846807_960_720.jpg" # Credit to https://pixabay.com/users/pexels-2286921/
                 },
+                "soccer": {
+                    "title": "Soccer/Football",
+                    "content": "https://cdn.pixabay.com/photo/2017/08/25/16/15/ball-2680595_960_720.jpg" # Credit to https://pixabay.com/users/coxinhafotos-3726685/
+                },
+                "hacking": {
+                    "title": "Hacking",
+                    "content": "https://cdn.pixabay.com/photo/2017/05/29/18/22/matrix-2354492_960_720.jpg" # Credit to https://pixabay.com/users/gdj-1086657/
+                },
+                "ufo": {
+                    "title": "UFO",
+                    "content": "https://cdn.pixabay.com/photo/2016/03/18/15/02/ufo-1265186_960_720.jpg" # Credit to https://pixabay.com/users/tombud-1908037/
+                },
                 "minecraft": {
                     "title": "Minecraft",
                     "content": "https://wallpapers.com/images/high/4d-minecraft-cube-gyq5l01m2bzys58p.jpg" # Credit to valeravenegretvv at https://wallpapers.com/wallpapers/4d-minecraft-cube-gyq5l01m2bzys58p.html
