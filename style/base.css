@@ -10,17 +10,17 @@
 
 .sprite-info_sprite-info_3EyZh, .stage-selector_header_2GVr1, .backpack_backpack-header_6ltCS, .asset-panel_wrapper_366X0, .custom-procedures_option-card_BtHt3, .connection-modal_activityArea_2nx-Z, .connection-modal_body_3YO9j, .blocklyDropDownDiv[style*="background-color: rgb(255, 255, 255)"], .Popover-body, .Popover-tipShape, .sprite-selector_sprite_21WnR:not(.sprite-selector-item_is-selected_24tQj):hover, .sprite-selector-item_sprite-selector-item_kQm-i:not(.sprite-selector-item_is-selected_24tQj):hover, .paint-editor_bitmap-button_keW7B, .react-tabs_react-tabs__tab_3Nn-X:not(.react-tabs_react-tabs__tab--selected_EW0CL):hover, .drag-layer_image_1inbS, .backpack_backpack-item_hwqzQ:hover > div, .library-item_library-item_1DcMO:hover {background-color: var(--c03) !important;}
 .Popover-body, .Popover-tipShape {fill: var(--c03) !important;}
-.stage_stage_1fD7k.stage_full-screen_ZO7xi, .custom-procedures_option-card_BtHt3:hover, .camera-modal_camera-feed-container_-La7q {border-color: var(--c03) !important;}
+.stage_stage_1fD7k.stage_full-screen_ZO7xi, .custom-procedures_option-card_BtHt3:hover {border-color: var(--c03) !important;}
 
-.library-item_library-item_1DcMO, .gui_menu-bar-position_3U1T0, .menu_menu_3k7QT, .sprite-selector-item_sprite-selector-item_kQm-i, .modal_header_1h7ps, .card_header-buttons_3Yq16, .card_left-card_1KpEh::after, .card_right-card_3IrbD::after, .gui_tab_27Unf, .stage-header_stage-button_hkl9B, .sprite-selector-item_sprite-selector-item_kQm-i.sprite-selector-item_is-selected_24tQj, .stage-selector_stage-selector_3oWOr, .language-selector_language-select_8Vfnm, .camera-modal_camera-feed-container_-La7q, .camera-modal_retake-button_3xhWG, .record-modal_meter-container_3OqCJ, .record-modal_waveform-container__ay3Q, .backpack_backpack-item_hwqzQ > div, .meter_mask_B-cd7, .record-modal_rerecord-button_jgsi_, .card_deck_2NtVa, .stage-header_stage-header-wrapper-overlay_5vfJa {background-color: var(--c04) !important;}
+.library-item_library-item_1DcMO, .gui_menu-bar-position_3U1T0, .menu_menu_3k7QT, .sprite-selector-item_sprite-selector-item_kQm-i, .modal_header_1h7ps, .card_header-buttons_3Yq16, .card_left-card_1KpEh::after, .card_right-card_3IrbD::after, .gui_tab_27Unf, .stage-header_stage-button_hkl9B, .sprite-selector-item_sprite-selector-item_kQm-i.sprite-selector-item_is-selected_24tQj, .stage-selector_stage-selector_3oWOr, .language-selector_language-select_8Vfnm, .record-modal_meter-container_3OqCJ, .record-modal_waveform-container__ay3Q, .backpack_backpack-item_hwqzQ > div, .meter_mask_B-cd7, .record-modal_rerecord-button_jgsi_, .card_deck_2NtVa, .stage-header_stage-header-wrapper-overlay_5vfJa {background-color: var(--c04) !important;}
 
-.backpack_backpack-list_MOp5X, .loader_background_2DPrW, .gui_body-wrapper_-N0sA, .scratchCategoryMenu, .blocklyToolboxDiv, .sprite-selector_sprite-selector_2KgCX, .prompt_body_18Z-I, .custom-procedures_body_SQBv6, .connection-modal_bottom-area_AHeQ3, .slider-prompt_body_2ZkXL.box_box_2jjDp, .card_step-body_2bFkf, .card_left-card_1KpEh, .card_right-card_3IrbD, .library_library-scroll-grid_1jyXm, .selector_wrapper_8_BHs .selector_list-area_1Xbj_.box_box_2jjDp, .camera-modal_body_3GKi0, .record-modal_body_2VO4l, .stage-wrapper_stage-wrapper_2bejr.stage-wrapper_full-screen_2hjMb {background-color: var(--c05) !important}
+.backpack_backpack-list_MOp5X, .loader_background_2DPrW, .gui_body-wrapper_-N0sA, .scratchCategoryMenu, .blocklyToolboxDiv, .sprite-selector_sprite-selector_2KgCX, .prompt_body_18Z-I, .custom-procedures_body_SQBv6, .connection-modal_bottom-area_AHeQ3, .slider-prompt_body_2ZkXL.box_box_2jjDp, .card_step-body_2bFkf, .card_left-card_1KpEh, .card_right-card_3IrbD, .library_library-scroll-grid_1jyXm, .selector_wrapper_8_BHs .selector_list-area_1Xbj_.box_box_2jjDp, .record-modal_body_2VO4l, .stage-wrapper_stage-wrapper_2bejr.stage-wrapper_full-screen_2hjMb {background-color: var(--c05) !important}
 .blocklyFlyoutCheckbox.checked {fill: var(--c05) !important;}
 
 .scratchCategoryMenuItem.categorySelected, .library_filter-bar_1W0DW, .sprite-selector_scroll-wrapper-dragging_2QZJG {background-color: var(--c06) !important;}
 
 .prompt_cloud-option_1jjSa {border-color: var(--c07) !important;}
-.gui_tab_27Unf, .scratchColourPickerLabel, .color-picker_row-header_173LQ, .library-item_featured-extension-requirement_2u2IO, .library-item_featured-extension-collaboration_2dGS9, .camera-modal_loading-text_e5804, .camera-modal_help-text_2KFwn, .camera-modal_disabled-text_G3r68, .font-dropdown_font-dropdown_3XyMU, .valueReportBox, .color-button_color-button-arrow_2NxGY {color: var(--c07); opacity: 1;}
+.gui_tab_27Unf, .scratchColourPickerLabel, .color-picker_row-header_173LQ, .library-item_featured-extension-requirement_2u2IO, .library-item_featured-extension-collaboration_2dGS9, .font-dropdown_font-dropdown_3XyMU, .valueReportBox, .color-button_color-button-arrow_2NxGY {color: var(--c07); opacity: 1;}
 
 .scratchCategoryMenuItemLabel, .sprite-info_sprite-info_3EyZh, .sprite-selector-item_sprite-info_-I0i_, .stage-selector_header-title_33xCt, .stage-selector_label_1MCfr, .stage-selector_count_2QK7D, .backpack_backpack-header_6ltCS, .backpack_status-message_3kt5s, .modal_modal-content_1h3ll, .custom-procedures_option-title_3v6va span, .custom-procedures_checkbox-row_rPP8j label span, .card_step-title_13--3, .library-item_library-item-name_2qMXu, .library-item_featured-description_MjIJw, .label_input-label_1s1ft, .labeled-icon-button_edit-field-title_1ZoEV, .label_input-label_3KjCa, .icon-button_title_36ChS, .card_deck-name_1SJhM {color: var(--c08) !important;}
 .blocklyFlyoutLabelText, .blocklyFlyoutButton .blocklyText {fill: var(--c08) !important;}
@@ -162,12 +162,12 @@
 }
 
 /*-- (YES / PROCEED) / (NO / CANCEL) buttons --*/
-.custom-procedures_ok-button_2X0Vj, .prompt_ok-button_3QFdD, .slider-prompt_ok-button_vLj7c, .camera-modal_ok-button_32iBJ, .record-modal_ok-button_3pudV {
+.custom-procedures_ok-button_2X0Vj, .prompt_ok-button_3QFdD, .slider-prompt_ok-button_vLj7c, .record-modal_ok-button_3pudV {
     border: 1px solid var(--c30) !important;
     color: var(--c30) !important;
     background: var(--c10) !important;
 }
-.custom-procedures_ok-button_2X0Vj:hover, .custom-procedures_ok-button_2X0Vj:active, .prompt_ok-button_3QFdD:hover, .prompt_ok-button_3QFdD:active, .slider-prompt_ok-button_vLj7c:hover, .slider-prompt_ok-button_vLj7c:active, .camera-modal_ok-button_32iBJ:hover, .camera-modal_ok-button_32iBJ:active, .record-modal_ok-button_3pudV:hover, .record-modal_ok-button_3pudV:active {
+.custom-procedures_ok-button_2X0Vj:hover, .custom-procedures_ok-button_2X0Vj:active, .prompt_ok-button_3QFdD:hover, .prompt_ok-button_3QFdD:active, .slider-prompt_ok-button_vLj7c:hover, .slider-prompt_ok-button_vLj7c:active, .record-modal_ok-button_3pudV:hover, .record-modal_ok-button_3pudV:active {
     background: var(--c30) !important;
     color: var(--c32) !important;
 }
