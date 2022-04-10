@@ -201,9 +201,9 @@
 .color-picker_clickable_29wR3.color-picker_swatch_1IYWN { padding: 4px; }
 
 .selector_new-buttons_2qHDd::before {
-    background: -webkit-gradient(linear,left top, left bottom,from(var(--c11)),to(var(--c05)));
-    background: -o-linear-gradient(var(--c11),var(--c05));
-    background: linear-gradient(var(--c11),var(--c05));
+    background: -webkit-gradient(linear,left top, left bottom,from(var(--c11)),to(var(--c04)));
+    background: -o-linear-gradient(var(--c11),var(--c04));
+    background: linear-gradient(var(--c11),var(--c04));
 }
 .library-item_featured-extension-metadata-detail_1M9BV img, .tool-select-base_mod-tool-select_1iD-h:not(.tool-select-base_is-selected_3x4kL) img, .mode-tools_mode-tools-icon_23c7i, .stage-header_stage-button-toggled-off_AJ8yG img, .stage-header_stage-size-row_14N65 > div:last-child img, .stage-header_stage-menu-wrapper_15JJt > span:last-child img, .color-picker_swatch-row_1Q_s_ > :last-child img, .sprite-info_row-primary_10JrS .sprite-info_icon-wrapper_3Wbqq img {
     -webkit-filter: grayscale(100%) brightness(1.2);
