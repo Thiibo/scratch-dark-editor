@@ -1,8 +1,9 @@
+/* (Enabled) */
 /*- Primary color -*/
 .gui_tab_27Unf.gui_is-selected_sHAiu span, .font-dropdown_displayed-font-name_ueeH4, .dropdown_dropdown_yOinO, .record-modal_button-row_1hdGe button, .record-modal_playing-text_1tknI {color: var(--c40);}
 .gui_extension-button-container_b4rCs, .delete-button_delete-button-visible_kym6v, .action-menu_button_1qbot, .action-menu_more-buttons-outer_3J9yZ, .action-menu_tooltip_3Bkh5, .action-menu_tooltip_3Bkh5::after, .sound-editor_round-button_3NLcW, .audio-trimmer_selection-background_3LBuB, .tool-select-base_mod-tool-select_1iD-h.tool-select-base_is-selected_3x4kL, .tag-button_tag-button_nBLRM, .tool-select-base_mod-tool-select_1iD-h:not(.tool-select-base_is-selected_3x4kL):active, .action-menu_button_1qbot:hover, .card_see-all-button_3o4U8, .connection-modal_connection-button_1paxF, .connection-modal_dot_2GsnJ {background-color: var(--c40) !important;}
 
-.gui_extension-button-container_b4rCs, .sprite-info_radio-first_3xgJB:focus, .sprite-info_radio-last_3Ps65:focus, .input_input-form_l9eYg:focus, .input_input-form_1Y0wX:focus, .input_input-form_l9eYg:hover, .input_input-form_1Y0wX:hover, .audio-trimmer_selector_DDQ2- .audio-trimmer_trim-line_2cpoE, .spinner_spinner_2Op8D.spinner_primary_32PLs {border-color: var(--c40);}
+.gui_extension-button-container_b4rCs, .sprite-info_radio-first_3xgJB:focus, .sprite-info_radio-last_3Ps65:focus, .audio-trimmer_selector_DDQ2- .audio-trimmer_trim-line_2cpoE, .spinner_spinner_2Op8D.spinner_primary_32PLs, .input_input-form_1Y0wX:hover, .sprite-info_sprite-info_3EyZh .input_input-form_l9eYg:not([disabled]):hover, .sound-editor_row_3iFzH .input_input-form_l9eYg:hover, .library_filter_2k-oj:hover, .input_input-form_1Y0wX:focus, .input_input-form_l9eYg:focus, .library_filter_2k-oj:focus-within {border-color: var(--c40) !important;}
 .spinner_spinner_2Op8D.spinner_primary_32PLs::after {border-top-color: var(--c40);}
 .audio-trimmer_playhead_3A0k9 {border-left-color: var(--c40);}
 

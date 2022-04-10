@@ -22,14 +22,17 @@ def getSettings():
         }
     
     # Load custom theme colors css
+    with open(cd + '/../style/customthemecolorsdisabled.css') as f:
+        customthemecolorsContentDisabled = f.read()
+
     with open(cd + '/../style/customthemecolorsenabled.css') as f:
-        customthemecolorsContent = f.read()
+        customthemecolorsContentEnabled = f.read()
 
     with open(cd + '/../style/customthemecolorsenabled_chromium.css') as f:
-        customthemecolorsContentChromium = f.read()
+        customthemecolorsContentEnabledChromium = f.read()
 
     with open(cd + '/../style/customthemecolorsenabled_gecko.css') as f:
-        customthemecolorsContentGecko = f.read()
+        customthemecolorsContentEnabledGecko = f.read()
 
     # Load background image css
     with open(cd + '/../style/backgroundimageenabled.css') as f:
@@ -49,11 +52,11 @@ def getSettings():
             "options": {
                 "no": {
                     "title": "No",
-                    "content": '/* Custom colors disabled */'
+                    "content": customthemecolorsContentDisabled
                 },
                 "yes": {
                     "title": "Yes",
-                    "content": customthemecolorsContent
+                    "content": customthemecolorsContentEnabled
                 }
             },
             "default": "no"
@@ -160,11 +163,11 @@ def getSettings():
             "options": {
                 "chromium": {
                     "title": "Chrome/Brave/Edge/Opera",
-                    "content": customthemecolorsContentChromium
+                    "content": customthemecolorsContentEnabledChromium
                 },
                 "gecko": {
                     "title": "Firefox/Waterfox",
-                    "content": customthemecolorsContentGecko
+                    "content": customthemecolorsContentEnabledGecko
                 }
             },
             "default": "chromium"
