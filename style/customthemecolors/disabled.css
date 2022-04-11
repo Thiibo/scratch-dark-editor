@@ -1,6 +1,6 @@
 /* (Disabled) */
 .input_input-form_1Y0wX:hover, .sprite-info_sprite-info_3EyZh .input_input-form_l9eYg:not([disabled]):hover, .sound-editor_row_3iFzH .input_input-form_l9eYg:hover, .library_filter_2k-oj:hover,
-.input_input-form_1Y0wX:focus, .input_input-form_l9eYg:focus, .library_filter_2k-oj:focus-within {
+.input_input-form_1Y0wX:focus, .input_input-form_l9eYg:focus, .library_filter_2k-oj:focus-within, .sprite-info_radio-wrapper_1OHDS div:not(.sprite-info_is-disabled_1_MCi):focus {
     border-color: #4C97FF !important;
 }
 .project-title-input_title-field_en5Gd:focus {
