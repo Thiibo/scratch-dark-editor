@@ -29,7 +29,7 @@
 
 
 /*-- TRANSPARENCY --*/
-.blocklySvg, .custom-procedures_ok-button_2X0Vj, .prompt_ok-button_3QFdD, .slider-prompt_ok-button_vLj7c, .custom-procedures_button-row_2jBu3 button:nth-child(1), .prompt_button-row_3Wc5Z button:nth-child(1), .slider-prompt_button-row_32aCX.box_box_2jjDp button:nth-child(1), .sound-editor_button_1_6Li, .selector_new-buttons_2qHDd {background-color: var(--c10) !important;}
+.custom-procedures_ok-button_2X0Vj, .prompt_ok-button_3QFdD, .slider-prompt_ok-button_vLj7c, .custom-procedures_button-row_2jBu3 button:nth-child(1), .prompt_button-row_3Wc5Z button:nth-child(1), .slider-prompt_button-row_32aCX.box_box_2jjDp button:nth-child(1), .sound-editor_button_1_6Li, .selector_new-buttons_2qHDd {background-color: var(--c10) !important;}
 .color-button_outline-swatch_3C0QK::after, .sound-editor_round-button_3NLcW {border-color: var(--c10) !important;}
 
 .green-flag_green-flag_1kiAo:hover, .stop-all_stop-all_1Y8P9:hover {background-color: var(--c12) !important;}
@@ -185,13 +185,13 @@
 /*[[customthemecolorsCSS]]*/
 
 /*-- BLOCK WORKSPACE BACKGROUND*/
-.blocklyMainBackground { fill: var(--cwb) !important; }
+.blocklySvg { background-color: var(--cwb) !important; }
+.blocklyMainBackground { opacity: .2; }
 
 /*-- OTHER PROPERTIES --*/
 /* None */
 .card_card_3GG7C, .card_left-card_1KpEh, .card_right-card_3IrbD, .color-picker_gradient-picker-row_mnu4O .color-picker_swatch_1IYWN {border: none;}
 .selector_wrapper_8_BHs .box_box_2jjDp {border-left: none;}
-.blocklyMainBackground {stroke: none;}
 .stage-header_stage-button-toggled-off_AJ8yG {filter: none;}
 
 .stage-header_stage-button_hkl9B, .paint-editor_canvas-container_x2D0a, .paint-editor_bitmap-button_keW7B, .library_filter_2k-oj {border: 1px solid}
