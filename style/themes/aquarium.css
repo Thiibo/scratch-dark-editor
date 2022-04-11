@@ -8,10 +8,13 @@
         --c03: #2d2e44;
         --c04: #30314d;
         --c05: #3b4164;
-        --c06: #4d5380;
-        --c07: #747596;
-        --c08: #8a8ecf;
-        --c09: #bec1ff;
+        --c06: #41486b;
+        --c07: #4d5380;
+        --c08: #747596;
+        --c09: #8a8ecf;
+        --c0A: #bec1ff;
+
+    /* Shades of black (partially transparent) */
         --c10: transparent;
         --c11: rgba(36, 36, 59, 0.01);
         --c12: hsla(219, 29%, 9%, 0.15);
