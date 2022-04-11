@@ -22,16 +22,16 @@ def getSettings():
         }
     
     # Load custom theme colors css
-    with open(cd + '/../style/customthemecolorsdisabled.css') as f:
+    with open(cd + '/../style/customthemecolors/disabled.css') as f:
         customthemecolorsContentDisabled = f.read()
 
-    with open(cd + '/../style/customthemecolorsenabled.css') as f:
+    with open(cd + '/../style/customthemecolors/enabled.css') as f:
         customthemecolorsContentEnabled = f.read()
 
-    with open(cd + '/../style/customthemecolorsenabled_chromium.css') as f:
+    with open(cd + '/../style/customthemecolors/enabled_chromium.css') as f:
         customthemecolorsContentEnabledChromium = f.read()
 
-    with open(cd + '/../style/customthemecolorsenabled_gecko.css') as f:
+    with open(cd + '/../style/customthemecolors/enabled_gecko.css') as f:
         customthemecolorsContentEnabledGecko = f.read()
 
     # Load background image css
