@@ -188,6 +188,11 @@
 /*-- THEME COLORS --*/
 /*[[customthemecolorsCSS]]*/
 
+/*-- SOUND LEVELS --*/
+.meter_red_1aMUm { fill: var(--c500); stroke: var(--c501); }
+.meter_yellow_3uz-j { fill: var(--c510); stroke: var(--c511); }
+.meter_green_oUPv2 { fill: var(--c520); stroke: var(--c521); }
+
 /*-- MISCELLANEOUS COLORS --*/
 /* Blockly workspace background */
 .blocklySvg { background-color: var(--cwb) !important; }
