@@ -1,7 +1,7 @@
 /* Classic */
 :root {
     /* ============================= Selected theme: Classic ============================= */
-    /* Shades of black */
+    /* Shades */
         --c00: black;
         --c01: #151515;
         --c02: #262626;
@@ -14,7 +14,7 @@
         --c09: #afafaf;
         --c0A: #d6d6d6;
 
-    /* Shades of black (partially transparent) */
+    /* Shades (partially transparent) */
         --c10: transparent;
         --c11: rgba(51, 51, 51, 0.01);
         --c12: hsla(0, 0%, 0%, 0.15);
@@ -85,11 +85,11 @@
         /* Text color */
         --c32: white;
 
-    /* Theme */
+    /* Theme colors */
         --c40: /*[[primaryColor]]*/;
         --c41: /*[[secundaryColor]]*/;
 
-    /* Sound Levels */
+    /* Sound levels */
         --c500: rgb(255, 113, 113);
         --c501: rgb(234, 119, 119);
         --c510: rgb(255, 230, 97);
@@ -97,6 +97,6 @@
         --c520: rgb(143, 213, 119);
         --c521: rgb(111, 196, 98);
 
-    /* Miscellaneous properties */
+    /* Miscellaneous colors */
         --cwb: #24242499; /* Block workspace background */
 }

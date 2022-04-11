@@ -1,7 +1,7 @@
 @-moz-document regexp("^((https?:\\/\\/)?scratch\\.mit\\.edu\\/projects\\/(\\d*\\/)?(editor|fullscreen).*)$") {
 /*[[theme]]*/
 
-/*-- SHADES OF BLACK --*/
+/*-- SHADES --*/
 .Popover-body, .paint-editor_bitmap-button_keW7B, .dropdown_dropdown_yOinO {border-color: var(--c00) !important;}
 .blocklyFlyoutBackground {fill: var(--c01); fill-opacity: 0.5;}
 
@@ -30,7 +30,7 @@
 .scratchCategoryMenuItem:hover > div, .custom-procedures_ok-button_2X0Vj:hover, .custom-procedures_ok-button_2X0Vj:active, .prompt_ok-button_3QFdD:active, .slider-prompt_ok-button_vLj7c:hover, .slider-prompt_ok-button_vLj7c:active, .custom-procedures_button-row_2jBu3 button:nth-child(1):hover, .custom-procedures_button-row_2jBu3 button:nth-child(1):active, .prompt_button-row_3Wc5Z button:nth-child(1):active, .slider-prompt_button-row_32aCX.box_box_2jjDp button:nth-child(1):hover, .slider-prompt_button-row_32aCX.box_box_2jjDp button:nth-child(1):active, .language-selector_language-select_8Vfnm, .fixed-tools_mod-menu-item_1syXh, .input_input-form_1Y0wX:focus, .input_input-form_l9eYg:focus, .library_filter_2k-oj:focus-within input, .library_filter_2k-oj:focus-within input::placeholder, .prompt_variable-name-text-input_1iu8-:focus {color: var(--c0A) !important;}
 
 
-/*-- TRANSPARENCY --*/
+/*-- SHADES (PARTIALLY TRANSPARENT) --*/
 .custom-procedures_ok-button_2X0Vj, .prompt_ok-button_3QFdD, .slider-prompt_ok-button_vLj7c, .custom-procedures_button-row_2jBu3 button:nth-child(1), .prompt_button-row_3Wc5Z button:nth-child(1), .slider-prompt_button-row_32aCX.box_box_2jjDp button:nth-child(1), .sound-editor_button_1_6Li, .selector_new-buttons_2qHDd {background-color: var(--c10) !important;}
 .color-button_outline-swatch_3C0QK::after, .sound-editor_round-button_3NLcW {border-color: var(--c10) !important;}
 
@@ -49,7 +49,7 @@
 
 .modal_modal-overlay_1Lcbx {background-color: var(--c15) !important;}
 
-/*-- BLOCKS --*/
+/*-- SCRATCH BLOCKS --*/
 /* Motion */
 [fill="#4C97FF"], [fill="#4280D7"], [fill="#3373CC"] {stroke: var(--c201);}
 [fill="#4C97FF"] {fill: var(--c200);}
@@ -163,7 +163,8 @@
     color: white;
 }
 
-/*-- (YES / PROCEED) / (NO / CANCEL) buttons --*/
+/*-- DIALOGUE --*/
+/* (YES / PROCEED) buttons */
 .custom-procedures_ok-button_2X0Vj, .prompt_ok-button_3QFdD, .slider-prompt_ok-button_vLj7c, .record-modal_ok-button_3pudV {
     border: 1px solid var(--c30) !important;
     color: var(--c30) !important;
@@ -174,6 +175,7 @@
     color: var(--c32) !important;
 }
 
+/* (NO / CANCEL) buttons */
 .custom-procedures_button-row_2jBu3 button:nth-child(1), .prompt_button-row_3Wc5Z button:nth-child(1), .slider-prompt_button-row_32aCX.box_box_2jjDp button:nth-child(1) {
     border: 1px solid var(--c31) !important;
     color: var(--c31) !important;
@@ -186,9 +188,13 @@
 /*-- THEME COLORS --*/
 /*[[customthemecolorsCSS]]*/
 
-/*-- BLOCK WORKSPACE BACKGROUND*/
+/*-- MISCELLANEOUS COLORS --*/
+/* Blockly workspace background */
 .blocklySvg { background-color: var(--cwb) !important; }
 .blocklyMainBackground { opacity: .2; }
+
+/*-- Background image --*/
+/*[[backgroundImageCSS]]*/
 
 /*-- OTHER PROPERTIES --*/
 /* None */
@@ -237,7 +243,4 @@
 
 .sprite-selector_scroll-wrapper-dragging_2QZJG {transition: background-color .2s ease-in-out;}
 .library_filter_2k-oj { transition: border-color .2s ease-in-out; }
-
-/*-- Background image --*/
-/*[[backgroundImageCSS]]*/
 }

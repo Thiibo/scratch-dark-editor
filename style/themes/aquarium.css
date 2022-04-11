@@ -1,7 +1,7 @@
 /* Aquarium */
 :root {
     /* ============================= Selected theme: Aquarium ============================= */
-    /* Shades of black */
+    /* Shades */
         --c00: #1c1f29;
         --c01: #22263b;
         --c02: #24223a;
@@ -14,7 +14,7 @@
         --c09: #8a8ecf;
         --c0A: #bec1ff;
 
-    /* Shades of black (partially transparent) */
+    /* Shades (partially transparent) */
         --c10: transparent;
         --c11: rgba(36, 36, 59, 0.01);
         --c12: hsla(219, 29%, 9%, 0.15);
@@ -85,11 +85,11 @@
         /* Text color */
         --c32: white;
 
-    /* Theme */
+    /* Theme colors */
         --c40: /*[[primaryColor]]*/;
         --c41: /*[[secundaryColor]]*/;
 
-    /* Sound Levels */
+    /* Sound levels */
         --c500: rgb(255, 113, 113);
         --c501: rgb(234, 119, 119);
         --c510: rgb(255, 230, 97);
@@ -97,6 +97,6 @@
         --c520: rgb(143, 213, 119);
         --c521: rgb(111, 196, 98);
 
-    /* Miscellaneous properties */
+    /* Miscellaneous colors */
         --cwb: #2f2f4799; /* Block workspace background */
 }
