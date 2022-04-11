@@ -156,7 +156,7 @@
 [fill="#0FBD8C"] {fill: var(--c2A0);}
 [fill="#0DA57A"] {fill: var(--c2A2);}
 [fill="#0B8E69"] {fill: var(--c2A1);}
-.blocklyDropDownDiv[data-category="Pen"]:not([style*="background-color: rgb(255, 255, 255)"]) {
+.blocklyDropDownDiv:not([style*="background-color: rgb(255, 255, 255)"]) {
     background-color: var(--c2A0) !important;
     border-color: var(--c2A1) !important;
     color: white;
