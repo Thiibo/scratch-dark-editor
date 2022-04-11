@@ -8,7 +8,7 @@
 .gui_tab_27Unf.gui_is-selected_sHAiu, .sprite-selector-item_is-selected_24tQj .sprite-selector-item_sprite-info_-I0i_, .stage-selector_stage-selector_3oWOr.stage-selector_is-selected_2x2r_ .stage-selector_header_2GVr1, .stage-header_stage-header-wrapper-overlay_5vfJa .stage-header_stage-button_hkl9B, .color-picker_swatch-row_1Q_s_ .color-picker_clickable_29wR3.color-picker_swatch_1IYWN, .labeled-icon-button_mod-edit-field_1bXYC:active, .mode-tools_mode-tools-icon_23c7i:active, .dropdown_mod-open_3zJSJ, .paint-editor_canvas-container_x2D0a, .font-dropdown_mod-menu-item_1wXq5:hover, .icon-button_container_278u5:active, .fixed-tools_mod-menu-item_1syXh:not(.fixed-tools_mod-disabled_3dvDX):hover, .color-button_swatch-icon_3ooIk, .color-picker_large-swatch-icon_E7mUt, .button_highlighted_2cM8r.button_button_u6SE2 {background-color: var(--c02) !important;}
 .sprite-selector-item_sprite-selector-item_kQm-i.sprite-selector-item_is-selected_24tQj, .stage-selector_stage-selector_3oWOr.stage-selector_is-selected_2x2r_, .gui_menu-bar-position_3U1T0, .paint-editor_canvas-container_x2D0a, .card_header-buttons_3Yq16, .modal_header-item_2zQTd.modal_header-item-title_tLOU5, .drag-layer_image_1inbS, .stage-selector_stage-selector_3oWOr:hover, .library-item_library-item_1DcMO, .sprite-selector-item_sprite-selector-item_kQm-i:hover, .stage-header_stage-header-wrapper-overlay_5vfJa, .input_input-form_1Y0wX, .input_input-form_l9eYg, .library_filter_2k-oj, .prompt_variable-name-text-input_1iu8-, .sprite-info_radio-wrapper_1OHDS div, .button-group_button-group_2_h4y span, .sound-editor_button_1_6Li, .paint-editor_bitmap-button_keW7B {border-color: var(--c02) !important;}
 
-.sprite-info_sprite-info_3EyZh, .stage-selector_header_2GVr1, .backpack_backpack-header_6ltCS, .asset-panel_wrapper_366X0, .custom-procedures_option-card_BtHt3, .connection-modal_activityArea_2nx-Z, .connection-modal_body_3YO9j, .blocklyDropDownDiv[style*="background-color: rgb(255, 255, 255)"], .Popover-body, .Popover-tipShape, .sprite-selector_sprite_21WnR:not(.sprite-selector-item_is-selected_24tQj):hover, .sprite-selector-item_sprite-selector-item_kQm-i:not(.sprite-selector-item_is-selected_24tQj):hover, .react-tabs_react-tabs__tab_3Nn-X:not(.react-tabs_react-tabs__tab--selected_EW0CL):hover, .drag-layer_image_1inbS, .backpack_backpack-item_hwqzQ:hover > div, .library-item_library-item_1DcMO:hover {background-color: var(--c03) !important;}
+.sprite-info_sprite-info_3EyZh, .stage-selector_header_2GVr1, .backpack_backpack-header_6ltCS, .asset-panel_wrapper_366X0, .custom-procedures_workspace_1d2uW .blocklySvg, .custom-procedures_option-card_BtHt3, .connection-modal_activityArea_2nx-Z, .connection-modal_body_3YO9j, .blocklyDropDownDiv[style*="background-color: rgb(255, 255, 255)"], .Popover-body, .Popover-tipShape, .sprite-selector_sprite_21WnR:not(.sprite-selector-item_is-selected_24tQj):hover, .sprite-selector-item_sprite-selector-item_kQm-i:not(.sprite-selector-item_is-selected_24tQj):hover, .react-tabs_react-tabs__tab_3Nn-X:not(.react-tabs_react-tabs__tab--selected_EW0CL):hover, .drag-layer_image_1inbS, .backpack_backpack-item_hwqzQ:hover > div, .library-item_library-item_1DcMO:hover {background-color: var(--c03) !important;}
 .Popover-body, .Popover-tipShape {fill: var(--c03) !important;}
 .stage_stage_1fD7k.stage_full-screen_ZO7xi, .custom-procedures_option-card_BtHt3:hover {border-color: var(--c03) !important;}
 
@@ -32,6 +32,7 @@
 /*-- SHADES (PARTIALLY TRANSPARENT) --*/
 .custom-procedures_ok-button_2X0Vj, .prompt_ok-button_3QFdD, .slider-prompt_ok-button_vLj7c, .custom-procedures_button-row_2jBu3 button:nth-child(1), .prompt_button-row_3Wc5Z button:nth-child(1), .slider-prompt_button-row_32aCX.box_box_2jjDp button:nth-child(1), .selector_new-buttons_2qHDd {background-color: var(--c10) !important;}
 .color-button_outline-swatch_3C0QK::after, .sound-editor_round-button_3NLcW {border-color: var(--c10) !important;}
+.custom-procedures_workspace_1d2uW .blocklyMainBackground {stroke: var(--c10);}
 
 .green-flag_green-flag_1kiAo:hover, .stop-all_stop-all_1Y8P9:hover {background-color: var(--c12) !important;}
 .blocklyFlyoutButton .blocklyFlyoutButtonBackground {fill: var(--c12);}
@@ -194,8 +195,8 @@
 
 /*-- MISCELLANEOUS COLORS --*/
 /* Blockly workspace background */
-.blocklySvg { background-color: var(--cwb) !important; }
-.blocklyMainBackground { opacity: .2; }
+#app .blocklySvg { background-color: var(--cwb) !important; }
+#app .blocklyMainBackground { opacity: .2; }
 
 /*-- Background image --*/
 /*[[backgroundImageCSS]]*/
