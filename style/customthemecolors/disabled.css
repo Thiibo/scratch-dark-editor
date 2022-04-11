@@ -6,3 +6,9 @@
 .project-title-input_title-field_en5Gd:focus {
     box-shadow: 0 0 0 calc(0.5rem * .5) #4C97FF44;
 }
+.blocklyFlyoutButton:hover .blocklyFlyoutButtonBackground {
+    stroke: #4C97FF;
+}
+.blocklyFlyoutButton:hover text {
+    fill: #4C97FF !important;
+}
