@@ -2,6 +2,9 @@
 [![Release](https://img.shields.io/github/v/release/Thiibo/scratch-dark-editor)](https://github.com/Thiibo/scratch-dark-editor/releases)
 [![Total installs](https://img.shields.io/badge/dynamic/json?color=informational&label=total%20installs&query=stats.installs.total&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2F33kk%2Fuso-archive%40flomaster%2Fdata%2Fstyles%2F170879.json)](https://userstyles.org/styles/170879/dark-scratch-editor)
 [![Weekly installs](https://img.shields.io/badge/dynamic/json?color=informational&label=weekly%20installs&query=stats.installs.weekly&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2F33kk%2Fuso-archive%40flomaster%2Fdata%2Fstyles%2F170879.json)](https://userstyles.org/styles/170879/dark-scratch-editor)
+
+![Banner](meta/banner.png "Banner")
+
 ## Important note
 This repository is intended to keep track of all changes made to my userstyle called 'Scratch Dark Editor' since update 3.0.0. I am welcome to any feedback regarding how the style could be improved. Do note that since this is a userstyle, it can only really make use of CSS to make changes to the editor. If you are looking for a way to add more features (like higher fps for your project), I advice you to look elsewhere. There are many other extensions and websites that will do exactly that. This project is only meant to alter the appearance of the editor, but not to add any further changes. To also make the website itself look somewhat darker, I would like to suggest you to try [Dark Theme for Scratch](https://userstyles.org/styles/173170/dark-theme-for-scratch), a userstyle made by [Eribetra](https://userstyles.org/users/565409).
 
