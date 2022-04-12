@@ -16,7 +16,7 @@
 .blocklyFlyoutButton:hover .blocklyFlyoutButtonBackground {stroke: var(--c40) !important}
 .checked > .blocklyFlyoutCheckbox {
     fill: var(--c40);
-    stroke: var(--c10);
+    stroke: transparent;
 }
 
 .dial_gauge-path_1WoJ6 {

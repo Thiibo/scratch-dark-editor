@@ -15,12 +15,11 @@
         --c0A: #d6d6d6;
 
     /* Shades (partially transparent) */
-        --c10: transparent;
-        --c11: rgba(51, 51, 51, 0.01);
-        --c12: hsla(0, 0%, 0%, 0.15);
-        --c13: hsla(120, 0%, 2%, .2);
-        --c14: hsla(0, 0%, 0%, 0.50);
-        --c15: hsla(0, 0%, 0%, 0.70);
+        --c10: hsla(120, 0%, 2%, 0.2);
+        --c11: hsla(0, 0%, 0%, 0.5);
+        --c12: hsla(0, 0%, 0%, 0.7);
+        --c13: hsla(0, 0%, 84%, 0.1);
+        --c14: hsla(0, 0%, 85%, 0.2);
 
     /* Scratch Blocks */
         /* Motion */
