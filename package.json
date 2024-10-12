@@ -1,0 +1,11 @@
+{
+  "name": "scratch-dark-editor",
+  "version": "3.0.0",
+  "description": "A userstyle to make the Scratch 3 online editor dark",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thiibo",
+  "license": "MIT"
+}
