@@ -26,4 +26,6 @@ async function getThemeFileInfo(filePath: string): Promise<Theme> {
     }
 }
 
-export { getThemes };
+export default {
+    themes: await getThemes()
+};
