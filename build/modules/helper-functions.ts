@@ -3,7 +3,6 @@ function extractAllRegexCaptureGroups(source: string, regex: RegExp, matchIndex:
     let match: RegExpExecArray | null;
 
     while ((match = regex.exec(source)) !== null) {
-        console.log('matches: ', match);
         extractedStrings.push(match[matchIndex]);
     }
 

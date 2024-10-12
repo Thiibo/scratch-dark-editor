@@ -1,4 +1,5 @@
-import { extractAllRegexCaptureGroups, interpretKeyValueObjectString } from "./helper-functions";
+import * as fs from 'node:fs';
+import { extractAllRegexCaptureGroups, interpretKeyValueObjectString } from "./modules/helper-functions";
 
 type StringKeyValueObject = {[name: string]: string}
 
@@ -13,4 +14,4 @@ async function getClassMappings(): Promise<StringKeyValueObject> {
     return keyValueObjectStrings.reduce((acc, string) => ({ ...acc, ...interpretKeyValueObjectString(string) }), {});
 }
 
-export { getClassMappings };
+fs.writeFileSync('class-mappings.json', JSON.stringify(await getClassMappings()));
