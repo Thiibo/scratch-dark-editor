@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "create-mappings": "npx tsx build/class-mappings.ts",
+    "create-mappings": "npx tsx build/generate-class-mappings.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Thiibo",
