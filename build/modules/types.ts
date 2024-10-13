@@ -6,18 +6,17 @@ type Theme = {
     content: string
 }
 
-type UserConfigDropdownOptions = {
-    [id: string]: {
-        title: string,
-        content: string
-    }
-}
-type UserConfigDropdownSettings<T = UserConfigDropdownOptions> = {
+type UserConfigDropdownSettings = {
     [id: string]: {
         title: string,
         type: "dropdown" | "image",
-        options: T,
-        default: keyof T
+        options: {
+            [id: string]: {
+                title: string,
+                content: string
+            }
+        },
+        default: string
     }
 }
 type UserConfigColorSettings = {
