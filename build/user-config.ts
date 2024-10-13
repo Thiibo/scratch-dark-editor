@@ -1,10 +1,15 @@
 import files from "./modules/files";
 
+const themeOptions = files.themes.reduce((acc, curr) => {
+    acc[curr.id] = { title: curr.name, content: curr.content };
+    return acc;
+}, {});
+
 export const userConfig: UserConfigSettings = {
     "theme": {
         "title": "Theme",
         "type": "dropdown",
-        "options": files.themes.reduce((acc, curr) => acc[curr.id] = { title: curr.name, content: curr.content }, {}),
+        "options": themeOptions,
         "default": "classic",
     },
     "customthemecolorsCSS": {
