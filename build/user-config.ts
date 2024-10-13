@@ -13,11 +13,11 @@ export const userConfig: UserConfigSettings = {
         "options": {
             "no": {
                 "title": "No",
-                // "content": customthemecolorsContentDisabled
+                "content": "customthemecolorsContentDisabled"
             },
             "yes": {
                 "title": "Yes",
-                // "content": customthemecolorsContentEnabled
+                "content": "customthemecolorsContentEnabled"
             }
         },
         "default": "no"
@@ -42,7 +42,7 @@ export const userConfig: UserConfigSettings = {
             },
             "yes": {
                 "title": "Yes",
-                // "content": backgroundImageContent
+                "content": "backgroundImageContent"
             }
         },
         "default": "no"
@@ -124,11 +124,11 @@ export const userConfig: UserConfigSettings = {
         "options": {
             "chromium": {
                 "title": "Chrome/Brave/Edge/Opera",
-                // "content": customthemecolorsContentEnabledChromium
+                "content": "customthemecolorsContentEnabledChromium"
             },
             "gecko": {
                 "title": "Firefox/Waterfox",
-                // "content": customthemecolorsContentEnabledGecko
+                "content": "customthemecolorsContentEnabledGecko"
             }
         },
         "default": "chromium"
