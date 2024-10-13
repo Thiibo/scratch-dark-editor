@@ -17,4 +17,10 @@ function interpretKeyValueObjectString(string: string) {
     }, {});
 }
 
-export { extractAllRegexCaptureGroups, interpretKeyValueObjectString }
+function removeKeysWithHyphens(obj: {[key: string]: any}) {
+    const shallowCopy = Object.assign({}, obj);
+    Object.keys(shallowCopy).filter(key => /\-/.test(key)).forEach(key => delete shallowCopy[key]);
+    return shallowCopy;
+}
+
+export { extractAllRegexCaptureGroups, interpretKeyValueObjectString, removeKeysWithHyphens }
