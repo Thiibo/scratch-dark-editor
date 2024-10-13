@@ -6,9 +6,11 @@ import files from "./modules/files";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
+const packageVersion = process.env.npm_package_version;
 
 function getUserCss(): string {
-    return `/* ==UserStyle==\n${files.header}\n${getUserCssSettings()}\n==/UserStyle== */\n\n${files.baseCss}`;
+    const header = files.header.replaceAll('{{VERSION}}', packageVersion);
+    return `/* ==UserStyle==\n${header}\n${getUserCssSettings()}\n==/UserStyle== */\n\n${files.baseCss}`;
 }
 
 function getUserCssSettings(): string {
@@ -34,6 +36,6 @@ function getUserCssSettings(): string {
     return result.replaceAll("*/", "*\\/");
 }
 
-const outPath = path.join(__dirname, 'out', `scratch-dark-editor-${process.env.npm_package_version}.user.css`);
+const outPath = path.join(__dirname, 'out', `scratch-dark-editor-${packageVersion}.user.css`);
 fs.mkdirSync(path.dirname(outPath), { recursive: true });
 fs.writeFileSync(outPath, getUserCss());

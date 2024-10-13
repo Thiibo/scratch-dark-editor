@@ -1,11 +1,12 @@
 {
   "name": "scratch-dark-editor",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "A userstyle to make the Scratch 3 online editor dark",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "create-mappings": "npx tsx build/generate-class-mappings.ts",
+    "export": "npx tsx build/export-user-css.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Thiibo",
