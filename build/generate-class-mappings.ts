@@ -19,7 +19,7 @@ async function getClassMappings(): Promise<StringKeyValueObject> {
     return removeKeysWithHyphens(fullClassMappings);
 }
 
-const outPath = path.join(__dirname, 'class-mappings.json');
+const outPath = path.join(__dirname, 'class-mappings', 'generated.json');
 const classMappings = await getClassMappings();
 
 fs.writeFileSync(outPath, JSON.stringify(classMappings));
