@@ -1,6 +1,6 @@
 import files from "./modules/files";
 
-export const settings: UserConfigSettings = {
+export const userConfig: UserConfigSettings = {
     "theme": {
         "title": "Theme",
         "type": "dropdown",
