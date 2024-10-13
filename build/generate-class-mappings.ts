@@ -22,3 +22,4 @@ const outPath = path.join(__dirname, 'class-mappings', 'generated.json');
 const classMappings = await getClassMappings();
 
 fs.writeFileSync(outPath, JSON.stringify(classMappings));
+console.log("Exported class mappings.");

@@ -54,3 +54,4 @@ function resolveClassMappings(source: string): string {
 const outPath = path.join(__dirname, 'out', `scratch-dark-editor-${packageVersion}.user.css`);
 fs.mkdirSync(path.dirname(outPath), { recursive: true });
 fs.writeFileSync(outPath, getUserCss());
+console.log("Exported user CSS file.");
