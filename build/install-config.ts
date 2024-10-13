@@ -1,10 +1,10 @@
 import files from "./modules/files";
 
-export default {
+export const settings: UserConfigSettings = {
     "theme": {
         "title": "Theme",
         "type": "dropdown",
-        "options": files.themes.map(theme => theme.name),
+        "options": files.themes.reduce((acc, curr) => acc[curr.id] = { title: curr.name, content: curr.content }, {}),
         "default": "classic",
     },
     "customthemecolorsCSS": {
