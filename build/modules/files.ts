@@ -1,12 +1,23 @@
 import * as fs from 'node:fs/promises';
 import * as path from 'node:path';
+import { fileURLToPath } from 'url';
 
-const THEMES_PATH = "../../style/themes";
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+const FILE_PATHS = Object.freeze({
+    themesFolder: path.resolve(__dirname, "../../style/themes"),
+    header: path.resolve(__dirname, "../../style/header.txt"),
+    baseCss: path.resolve(__dirname, "../../style/base.css"),
+    backgroundImageEnabled: path.resolve(__dirname, "../../style/background-image-enabled.css")
+});
+
 const THEME_NAME_EXTRACTION_REGEX = /\/\*\*\* (.*?) \*\*\*\/\n?/;
 
 async function getThemes(): Promise<Theme[]> {
-    const files = await fs.readdir(THEMES_PATH);
-    return Promise.all(files.map(getThemeFileInfo));
+    const filePaths = await fs.readdir(FILE_PATHS.themesFolder);
+    const absoluteFilePaths = filePaths.map(filePath => path.resolve(FILE_PATHS.themesFolder, filePath));
+    return Promise.all(absoluteFilePaths.map(getThemeFileInfo));
 }
 
 async function getThemeFileInfo(filePath: string): Promise<Theme> {
@@ -27,5 +38,8 @@ async function getThemeFileInfo(filePath: string): Promise<Theme> {
 }
 
 export default {
-    themes: await getThemes()
+    themes: await getThemes(),
+    header: await fs.readFile(FILE_PATHS.header, 'utf-8'),
+    baseCss: await fs.readFile(FILE_PATHS.baseCss, 'utf-8'),
+    backgroundImageEnabled: await fs.readFile(FILE_PATHS.backgroundImageEnabled, 'utf-8'),
 };
