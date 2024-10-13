@@ -9,7 +9,9 @@ const FILE_PATHS = Object.freeze({
     themesFolder: path.resolve(__dirname, "../../style/themes"),
     header: path.resolve(__dirname, "../../style/header.txt"),
     baseCss: path.resolve(__dirname, "../../style/base.css"),
-    backgroundImageEnabled: path.resolve(__dirname, "../../style/background-image-enabled.css")
+    backgroundImageEnabled: path.resolve(__dirname, "../../style/background-image-enabled.css"),
+    generatedClassMappings: path.resolve(__dirname, "../class-mappings/generated.json"),
+    manualClassMappings: path.resolve(__dirname, "../class-mappings/manual.yaml"),
 });
 
 const THEME_NAME_EXTRACTION_REGEX = /\/\*\*\* (.*?) \*\*\*\/\n?/;
@@ -42,4 +44,6 @@ export default {
     header: await fs.readFile(FILE_PATHS.header, 'utf-8'),
     baseCss: await fs.readFile(FILE_PATHS.baseCss, 'utf-8'),
     backgroundImageEnabled: await fs.readFile(FILE_PATHS.backgroundImageEnabled, 'utf-8'),
+    generatedClassMappings: await fs.readFile(FILE_PATHS.generatedClassMappings, 'utf-8'),
+    manualClassMappings:  await fs.readFile(FILE_PATHS.manualClassMappings, 'utf-8'),
 };
