@@ -3,12 +3,6 @@ import * as path from 'node:path';
 
 const THEMES_PATH = "../../style/themes";
 
-type Theme = {
-    path: string,
-    name: string,
-    content: string
-}
-
 async function getThemes(): Promise<Theme[]> {
     const files = await fs.readdir(THEMES_PATH);
     return Promise.all(files.map(getThemeFileInfo));

@@ -9,7 +9,6 @@ const __dirname = path.dirname(__filename);
 const MAPPING_EXTRACTION_REGEX = /a\.locals\s*=\s*\{([^}]*)\}/g;
 const SCRATCH_WEBPACK_BUNDLE_SOURCE = "https://scratch.mit.edu/js/projects.bundle.js"
 
-type StringKeyValueObject = {[name: string]: string}
 async function getClassMappings(): Promise<StringKeyValueObject> {
     const res = await fetch(SCRATCH_WEBPACK_BUNDLE_SOURCE);
     const webpackCode = await res.text();
