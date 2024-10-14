@@ -130,7 +130,7 @@
     §libraryScrollGrid,
     §spriteSoundSelectionContainerWrapper > :first-child,
     §recordModalBody,
-    .stage-wrapper_stage-wrapper_2bejr.stage-wrapper_full-screen_2hjMb,
+    §stageFullWrapperFullscreen,
     §inputForm,
     §spriteInfoHeader §inputForm,
     §soundEditorRow §inputForm,
@@ -371,12 +371,12 @@
     
     /*-- DIALOGUE --*/
     /* (YES / PROCEED) buttons */
-    §okButton2, §okButton3, §okButton, .record-modal_ok-button_3pudV {
+    §okButton2, §okButton3, §okButton, §recordModalOkButton {
         border: 1px solid var(--c30) !important;
         color: var(--c30) !important;
         background: transparent !important;
     }
-    §okButton2:hover, §okButton2:active, §okButton3:hover, §okButton3:active, §okButton:hover, §okButton:active, .record-modal_ok-button_3pudV:hover, .record-modal_ok-button_3pudV:active {
+    §okButton2:hover, §okButton2:active, §okButton3:hover, §okButton3:active, §okButton:hover, §okButton:active, §recordModalOkButton:hover, §recordModalOkButton:active {
         background: var(--c30) !important;
         color: var(--c32) !important;
     }
@@ -414,7 +414,7 @@
     .stage-header_stage-button-toggled-off_AJ8yG, .sprite-info_radio-wrapper_1OHDS div {filter: none;}
     
     /* Transparent */
-    §okButton2, §okButton3, §okButton, §cancelButton, §cancelButton2, §buttonRow§box button:first-child, §newButtons {background-color: transparent !important;}
+    §okButton2, §okButton3, §okButton, §cancelButton, §cancelButton2, §buttonRow§box button:first-child, §newButtons, §unselectWrapper {background-color: transparent !important;}
     §outlineSwatch::after, §roundButton {border-color: transparent !important;}
     §workspace .blocklyMainBackground {stroke: transparent;}
     §newButtons::before {
