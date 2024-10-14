@@ -128,8 +128,8 @@
     §leftCard,
     §rightCard,
     §libraryScrollGrid,
-    .selector_wrapper_8_BHs .selector_list-area_1Xbj_§box,
-    .record-modal_body_2VO4l,
+    §spriteSoundSelectionContainerWrapper > :first-child,
+    §recordModalBody,
     .stage-wrapper_stage-wrapper_2bejr.stage-wrapper_full-screen_2hjMb,
     §inputForm,
     §spriteInfoHeader §inputForm,
@@ -253,7 +253,7 @@
     
     §greenFlag:hover,
     §stopAll:hover {background-color: var(--c13) !important;}
-    §greenFlag.green-flag_is-active_2oExT {background-color: var(--c14) !important;}
+    §greenFlag§greenFlagActive {background-color: var(--c14) !important;}
     
     /*-- SCRATCH BLOCKS --*/
     /* Motion */
@@ -410,7 +410,7 @@
     /*-- OTHER PROPERTIES --*/
     /* None */
     §card, §leftCard, §rightCard, §gradientPickerRow §swatch {border: none;}
-    .selector_wrapper_8_BHs §box {border-left: none;}
+    §spriteSoundSelectionContainerWrapper §box {border-left: none;}
     .stage-header_stage-button-toggled-off_AJ8yG, .sprite-info_radio-wrapper_1OHDS div {filter: none;}
     
     /* Transparent */

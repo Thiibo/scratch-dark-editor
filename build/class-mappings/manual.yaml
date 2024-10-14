@@ -8,3 +8,6 @@ okButton2: custom-procedures_ok-button_8IOTO
 okButton3: prompt_ok-button_9CK92
 cancelButton: custom-procedures_button-row_a31t- button:first-child
 cancelButton2: prompt_button-row_rxSq7 button:first-child
+greenFlagActive: green-flag_is-active_Q0K9X
+spriteSoundSelectionContainerWrapper: selector_wrapper_8d0r2
+recordModalBody: record-modal_body_jBbNz
