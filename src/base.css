@@ -100,7 +100,7 @@
     §spriteSelectorItem§spriteSelectorItemSelected,
     §stageSelector,
     §meterContainer,
-    §visualizationContainer :last-child,
+    §visualizationContainer > :last-child,
     §backpackItem > div,
     §mask,
     §rerecordButton,
@@ -235,12 +235,16 @@
     §stageButton,
     .fixed-tools_button-group-button_2dq9z,
     .divider_divider_1_Adi,
-    .stage_stage-overlay-content_ePv_6 {border-color: var(--c10) !important;}
-    .blocklyFlyoutButton .blocklyFlyoutButtonBackground {fill: var(--c10);}
+    .stage_stage-overlay-content_ePv_6 {
+        border-color: var(--c10) !important;
+    }
+    .blocklyFlyoutButton .blocklyFlyoutButtonBackground { fill: var(--c10); }
     §spriteSelectorItem§spriteSelectorItemSelected,
     §stageSelector§stageSelectorSelected,
     §optionCard:hover,
-    §activeSwatch {box-shadow: 0px 0px 0px 4px var(--c10) !important;}
+    §activeSwatch {
+        box-shadow: 0px 0px 0px 4px var(--c10) !important;
+    }
     
     §card {box-shadow: 0px 5px 25px 10px var(--c11) !important;}
     .blocklyFlyoutButton:hover .blocklyFlyoutButtonBackground {fill: var(--c11);}
@@ -409,13 +413,25 @@
     
     /*-- OTHER PROPERTIES --*/
     /* None */
-    §card, §leftCard, §rightCard, §gradientPickerRow §swatch {border: none;}
+    §card,
+    §leftCard,
+    §rightCard,
+    §gradientPickerRow §swatch {border: none;}
     §spriteSoundSelectionContainerWrapper §box {border-left: none;}
-    .stage-header_stage-button-toggled-off_AJ8yG, .sprite-info_radio-wrapper_1OHDS div {filter: none;}
+    .stage-header_stage-button-toggled-off_AJ8yG,
+    .sprite-info_radio-wrapper_1OHDS div {filter: none;}
     
     /* Transparent */
-    §okButton2, §okButton3, §okButton, §cancelButton, §cancelButton2, §buttonRow§box button:first-child, §newButtons, §unselectWrapper {background-color: transparent !important;}
-    §outlineSwatch::after, §roundButton {border-color: transparent !important;}
+    §okButton2,
+    §okButton3,
+    §okButton,
+    §cancelButton,
+    §cancelButton2,
+    §buttonRow§box button:first-child,
+    §newButtons,
+    §unselectWrapper {background-color: transparent !important;}
+    §outlineSwatch::after,
+    §roundButton {border-color: transparent !important;}
     §workspace .blocklyMainBackground {stroke: transparent;}
     §newButtons::before {
         background: -webkit-linear-gradient(transparent, var(--c04));
@@ -425,6 +441,19 @@
     
     .sprite-info_radio-wrapper_1OHDS div:not(.sprite-info_is-active_ewF6e) img {filter: saturate(0) brightness(.8);}
     
+    §stageButton,
+    §canvasContainer,
+    §bitmapButton,
+    §filter {
+        border: 1px solid
+    }
+    §stageSelector§stageSelectorSelected,
+    §optionCard:hover {
+        border: 2px solid
+    }
+    §menuBarPosition,
+    §headerButtons,
+    §headerItem§headerItemTitle,
     §stageButton, §canvasContainer, §bitmapButton, §filter {border: 1px solid}
     §stageSelector§stageSelectorSelected, §optionCard:hover {border: 2px solid}
     §menuBarPosition, §headerButtons, §headerItem§headerItemTitle, §stageHeaderWrapperOverlay {border-bottom: 2px solid}
@@ -432,15 +461,29 @@
     §clickable§swatch { padding: 4px; }
     §bitmapButton {line-height: 1.25rem;}
     
-    §featuredExtensionMetadataDetail img, §modToolSelect:not(.tool-select-base_is-selected_3x4kL) img, §modeToolsIcon, .stage-header_stage-button-toggled-off_AJ8yG img, §stageSizeRow > div:last-child img, §stageMenuWrapper > span:last-child img, .color-picker_swatch-row_1Q_s_ > :last-child img, §rowPrimary §iconWrapper img, §buttonGroupButtonIcon {
+    §featuredExtensionMetadataDetail img,
+    §modToolSelect:not(.tool-select-base_is-selected_3x4kL) img,
+    §modeToolsIcon,
+    .stage-header_stage-button-toggled-off_AJ8yG img,
+    §stageSizeRow > div:last-child img,
+    §stageMenuWrapper > span:last-child img,
+    §swatchRow > :last-child img,
+    §rowPrimary §iconWrapper img,
+    §buttonGroupButtonIcon
+    {
         -webkit-filter: grayscale(100%) brightness(1.2);
         -moz-filter: grayscale(100%) brightness(1.2);
         -o-filter: grayscale(100%) brightness(1.2);
         filter: grayscale(100%) brightness(1.2);
     }
-    .stage_stage-wrapper-overlay_fmZuD {top: calc(2.75rem + 2px)}
+    .stage_stage-wrapper-overlay_fmZuD {
+        top: calc(2.75rem + 2px)
+    }
     
-    §swatch, §colorButtonSwatch {display: block;}
+    §swatch,
+    §colorButtonSwatch {
+        display: block;
+    }
     .color-button_swatch-icon_3ooIk {
         width: calc(100% + 2px) !important;
         height: calc(100% + 2px) !important;
@@ -461,5 +504,5 @@
     }
     
     §scrollWrapperDragging {transition: background-color .2s ease-in-out;}
-    §filter { transition: border-color .2s ease-in-out; }
+    §filter {transition: border-color .2s ease-in-out;}
 }
