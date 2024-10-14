@@ -52,7 +52,7 @@
     §filter,
     §variableNameTextInput,
     /* .sprite-info_radio-wrapper_1OHDS div, */
-    /* .button-group_button-group_2_h4y span, */
+    §costumeEditorButtonGroup span,
     §buttonGroup button,
     §bitmapButton
     {
@@ -120,8 +120,8 @@
     .scratchCategoryMenu,
     .blocklyToolboxDiv,
     §spriteSelector,
-    .prompt_body_18Z-I,
-    .custom-procedures_body_SQBv6,
+    §listVariableModalBody,
+    §customBlockModalBody,
     §bottomArea,
     §body§box,
     §stepBody,
@@ -137,7 +137,7 @@
     §titleField,
     §filter,
     .sprite-info_radio-wrapper_1OHDS .sprite-info_is-active_ewF6e,
-    .button-group_button-group_2_h4y span,
+    §costumeEditorButtonGroup span,
     §buttonGroup button:not([disabled]) {
         background-color: var(--c05) !important
     }
@@ -146,7 +146,7 @@
     }
     
     §titleField:hover,
-    .button-group_button-group_2_h4y span:not(.button_mod-disabled_1rf31):hover,
+    §costumeEditorButtonGroup span:not(.button_mod-disabled_1rf31):hover,
     §buttonGroup button:not([disabled]):hover,
     §bitmapButton:hover {
         background-color: var(--c06) !important;
@@ -244,10 +244,10 @@
     
     §card {box-shadow: 0px 5px 25px 10px var(--c11) !important;}
     .blocklyFlyoutButton:hover .blocklyFlyoutButtonBackground {fill: var(--c11);}
-    .color-picker_swatch-row_1Q_s_ §swatch,
+    §swatchRow §swatch,
     .blocklyDropDownDiv {border: 1px solid var(--c11) !important}
     .scratchEyedropper,
-    .color-picker_divider_3a3qR {border-color: var(--c11);}
+    §colorPickerDivider {border-color: var(--c11);}
     
     §modalOverlay {background-color: var(--c12) !important;}
     
