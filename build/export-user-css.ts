@@ -46,7 +46,8 @@ function getUserCssSettings(): string {
 function resolveClassMappings(source: string): string {
     let result = source;
     for (const [id, targetClass] of Object.entries(classMappings)) {
-        result = result.replaceAll(`&${id}`, `.${targetClass}`);
+        const re = new RegExp(`§${id}(?![a-zA-Z])`, 'g');
+        result = result.replaceAll(re, `.${targetClass}`);
     }
     return result;
 }
