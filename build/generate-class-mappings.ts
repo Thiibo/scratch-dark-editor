@@ -13,7 +13,8 @@ async function getClassMappings(): Promise<StringKeyValueObject> {
     const res = await fetch(SCRATCH_WEBPACK_BUNDLE_SOURCE);
     const webpackCode = await res.text();
     const keyValueObjectStrings = extractAllRegexCaptureGroups(webpackCode, MAPPING_EXTRACTION_REGEX, 1);
-    const fullClassMappings = keyValueObjectStrings.reduce((acc, string) => ({ ...acc, ...interpretKeyValueObjectString(string) }), {});
+    const fullClassMappings: StringKeyValueObject = keyValueObjectStrings.reduce((acc, string) => ({ ...acc, ...interpretKeyValueObjectString(string) }), {});
+    for (const [key, value] of Object.entries(fullClassMappings)) fullClassMappings[key] = value.replaceAll('+', '\\+');
     
     return removeKeysWithHyphens(fullClassMappings);
 }
