@@ -6,10 +6,10 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const FILE_PATHS = Object.freeze({
-    themesFolder: path.resolve(__dirname, "../../style/themes"),
-    header: path.resolve(__dirname, "../../style/header.txt"),
-    baseCss: path.resolve(__dirname, "../../style/base.css"),
-    backgroundImageEnabled: path.resolve(__dirname, "../../style/background-image-enabled.css"),
+    themesFolder: path.resolve(__dirname, "../../src/themes"),
+    header: path.resolve(__dirname, "../../src/header.txt"),
+    baseCss: path.resolve(__dirname, "../../src/base.css"),
+    backgroundImageEnabled: path.resolve(__dirname, "../../src/background-image-enabled.css"),
     generatedClassMappings: path.resolve(__dirname, "../class-mappings/generated.json"),
     manualClassMappings: path.resolve(__dirname, "../class-mappings/manual.yaml"),
 });

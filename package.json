@@ -6,7 +6,7 @@
   "type": "module",
   "watch": {
     "export": {
-      "patterns": [ "style", "build/class-mappings" ],
+      "patterns": [ "src", "build/class-mappings" ],
       "extensions": "css,txt,json,yaml",
       "quiet": false
     }
