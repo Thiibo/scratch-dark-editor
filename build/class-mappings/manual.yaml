@@ -2,6 +2,8 @@ spriteSelectorItemSelected: sprite-selector-item_is-selected_24tQj
 stageSelectorSelected: stage-selector_is-selected_2x2r_
 spriteInfoHeader: sprite-info_sprite-info_MA8v0
 soundEditorRow: sound-editor_row_MD46J
+costumesSoundEditorBackground: asset-panel_wrapper_VrlXe
+modalContent: modal_modal-content_lJynt
 okButton2: custom-procedures_ok-button_8IOTO
 okButton3: prompt_ok-button_9CK92
 cancelButton: custom-procedures_button-row_a31t- button:nth-child(1)
