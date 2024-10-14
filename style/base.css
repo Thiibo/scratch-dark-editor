@@ -51,9 +51,9 @@
     §titleField,
     §filter,
     §variableNameTextInput,
-    .sprite-info_radio-wrapper_1OHDS div,
-    .button-group_button-group_2_h4y span,
-    .sound-editor_button_1_6Li,
+    /* .sprite-info_radio-wrapper_1OHDS div, */
+    /* .button-group_button-group_2_h4y span, */
+    §buttonGroup button,
     §bitmapButton
     {
         border-color: var(--c02) !important;
@@ -110,7 +110,7 @@
     §variableNameTextInput,
     §spriteInfoHeader §inputForm,
     .sprite-info_radio-wrapper_1OHDS div,
-    .sound-editor_button_1_6Li {
+    §buttonGroup button {
         background-color: var(--c04) !important;
     }
     
@@ -139,7 +139,7 @@
     §filter,
     .sprite-info_radio-wrapper_1OHDS .sprite-info_is-active_ewF6e,
     .button-group_button-group_2_h4y span,
-    .sound-editor_button_1_6Li:not([disabled]) {
+    §buttonGroup button:not([disabled]) {
         background-color: var(--c05) !important
     }
     .blocklyFlyoutCheckbox.checked {
@@ -148,7 +148,7 @@
     
     §titleField:hover,
     .button-group_button-group_2_h4y span:not(.button_mod-disabled_1rf31):hover,
-    .sound-editor_button_1_6Li:not([disabled]):hover,
+    §buttonGroup button:not([disabled]):hover,
     §bitmapButton:hover {
         background-color: var(--c06) !important;
     }
