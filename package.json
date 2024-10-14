@@ -6,8 +6,8 @@
   "type": "module",
   "watch": {
     "export": {
-      "patterns": [ "style" ],
-      "extensions": "css,txt",
+      "patterns": [ "style", "build/class-mappings" ],
+      "extensions": "css,txt,json,yaml",
       "quiet": false
     }
   },
