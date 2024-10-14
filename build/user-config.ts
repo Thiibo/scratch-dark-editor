@@ -47,7 +47,7 @@ export const userConfig: UserConfigSettings = {
             },
             "yes": {
                 "title": "Yes",
-                "content": "backgroundImageContent"
+                "content": files.backgroundImageEnabled
             }
         },
         "default": "no"
