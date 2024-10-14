@@ -209,17 +209,16 @@
     
     .scratchCategoryMenuItem:hover .scratchCategoryMenuItemLabel,
     .scratchCategoryMenuItem.categorySelected .scratchCategoryMenuItemLabel,
-    .custom-procedures_ok-button_2X0Vj:hover,
-    .custom-procedures_ok-button_2X0Vj:active,
-    .prompt_ok-button_3QFdD:active,
+    §okButton3:active,
     §okButton:hover,
     §okButton:active,
-    .custom-procedures_button-row_2jBu3 button:nth-child(1):hover,
-    .custom-procedures_button-row_2jBu3 button:nth-child(1):active,
-    .prompt_button-row_3Wc5Z button:nth-child(1):active,
+    §okButton2:hover,
+    §okButton2:active,
+    §cancelButton:hover,
+    §cancelButton:active,
+    §cancelButton2:active,
     §buttonRow§box button:nth-child(1):hover,
     §buttonRow§box button:nth-child(1):active,
-    .language-selector_language-select_8Vfnm,
     .fixed-tools_mod-menu-item_1syXh,
     §inputForm:focus,
     §spriteInfoHeader §inputForm:focus,
@@ -373,22 +372,22 @@
     
     /*-- DIALOGUE --*/
     /* (YES / PROCEED) buttons */
-    .custom-procedures_ok-button_2X0Vj, .prompt_ok-button_3QFdD, §okButton, .record-modal_ok-button_3pudV {
+    §okButton2, §okButton3, §okButton, .record-modal_ok-button_3pudV {
         border: 1px solid var(--c30) !important;
         color: var(--c30) !important;
         background: transparent !important;
     }
-    .custom-procedures_ok-button_2X0Vj:hover, .custom-procedures_ok-button_2X0Vj:active, .prompt_ok-button_3QFdD:hover, .prompt_ok-button_3QFdD:active, §okButton:hover, §okButton:active, .record-modal_ok-button_3pudV:hover, .record-modal_ok-button_3pudV:active {
+    §okButton2:hover, §okButton2:active, §okButton3:hover, §okButton3:active, §okButton:hover, §okButton:active, .record-modal_ok-button_3pudV:hover, .record-modal_ok-button_3pudV:active {
         background: var(--c30) !important;
         color: var(--c32) !important;
     }
     
     /* (NO / CANCEL) buttons */
-    .custom-procedures_button-row_2jBu3 button:nth-child(1), .prompt_button-row_3Wc5Z button:nth-child(1), §buttonRow§box button:nth-child(1) {
+    §cancelButton, §cancelButton2, §buttonRow§box button:nth-child(1) {
         border: 1px solid var(--c31) !important;
         color: var(--c31) !important;
     }
-    .custom-procedures_button-row_2jBu3 button:nth-child(1):hover, .custom-procedures_button-row_2jBu3 button:nth-child(1):active, .prompt_button-row_3Wc5Z button:nth-child(1):hover, .prompt_button-row_3Wc5Z button:nth-child(1):active, §buttonRow§box button:nth-child(1):hover, §buttonRow§box button:nth-child(1):active {
+    §cancelButton:hover, §cancelButton:active, §cancelButton2:hover, §cancelButton2:active, §buttonRow§box button:nth-child(1):hover, §buttonRow§box button:nth-child(1):active {
         background: var(--c31) !important;
         color: var(--c32) !important;
     }
@@ -416,7 +415,7 @@
     .stage-header_stage-button-toggled-off_AJ8yG, .sprite-info_radio-wrapper_1OHDS div {filter: none;}
     
     /* Transparent */
-    .custom-procedures_ok-button_2X0Vj, .prompt_ok-button_3QFdD, §okButton, .custom-procedures_button-row_2jBu3 button:nth-child(1), .prompt_button-row_3Wc5Z button:nth-child(1), §buttonRow§box button:nth-child(1), §newButtons {background-color: transparent !important;}
+    §okButton2, §okButton3, §okButton, §cancelButton, §cancelButton2, §buttonRow§box button:nth-child(1), §newButtons {background-color: transparent !important;}
     §outlineSwatch::after, §roundButton {border-color: transparent !important;}
     §workspace .blocklyMainBackground {stroke: transparent;}
     §newButtons::before {
