@@ -216,8 +216,8 @@
     §cancelButton:hover,
     §cancelButton:active,
     §cancelButton2:active,
-    §buttonRow§box button:nth-child(1):hover,
-    §buttonRow§box button:nth-child(1):active,
+    §buttonRow§box button:first-child:hover,
+    §buttonRow§box button:first-child:active,
     .fixed-tools_mod-menu-item_1syXh,
     §inputForm:focus,
     §spriteInfoHeader §inputForm:focus,
@@ -382,11 +382,11 @@
     }
     
     /* (NO / CANCEL) buttons */
-    §cancelButton, §cancelButton2, §buttonRow§box button:nth-child(1) {
+    §cancelButton, §cancelButton2, §buttonRow§box button:first-child {
         border: 1px solid var(--c31) !important;
         color: var(--c31) !important;
     }
-    §cancelButton:hover, §cancelButton:active, §cancelButton2:hover, §cancelButton2:active, §buttonRow§box button:nth-child(1):hover, §buttonRow§box button:nth-child(1):active {
+    §cancelButton:hover, §cancelButton:active, §cancelButton2:hover, §cancelButton2:active, §buttonRow§box button:first-child:hover, §buttonRow§box button:first-child:active {
         background: var(--c31) !important;
         color: var(--c32) !important;
     }
@@ -414,7 +414,7 @@
     .stage-header_stage-button-toggled-off_AJ8yG, .sprite-info_radio-wrapper_1OHDS div {filter: none;}
     
     /* Transparent */
-    §okButton2, §okButton3, §okButton, §cancelButton, §cancelButton2, §buttonRow§box button:nth-child(1), §newButtons {background-color: transparent !important;}
+    §okButton2, §okButton3, §okButton, §cancelButton, §cancelButton2, §buttonRow§box button:first-child, §newButtons {background-color: transparent !important;}
     §outlineSwatch::after, §roundButton {border-color: transparent !important;}
     §workspace .blocklyMainBackground {stroke: transparent;}
     §newButtons::before {
