@@ -1,4 +1,5 @@
-import files from "./modules/files";
+import stylesheets from "./modules/files/stylesheets";
+import themes from "./modules/files/themes";
 
 const themeOptions: UserConfigDropdownSetting["options"] = themes.reduce((acc, curr) => {
     acc[curr.id] = { title: curr.name, content: curr.content };
@@ -47,7 +48,7 @@ export const userConfig: UserConfigSettings = {
             },
             "yes": {
                 "title": "Yes",
-                "content": files.backgroundImageEnabled
+                "content": await stylesheets.backgroundImageEnabled.parse()
             }
         },
         "default": "no"
