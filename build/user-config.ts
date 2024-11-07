@@ -1,6 +1,6 @@
 import files from "./modules/files";
 
-const themeOptions = files.themes.reduce((acc, curr) => {
+const themeOptions: UserConfigDropdownSetting["options"] = themes.reduce((acc, curr) => {
     acc[curr.id] = { title: curr.name, content: curr.content };
     return acc;
 }, {});
