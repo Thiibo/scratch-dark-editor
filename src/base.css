@@ -28,7 +28,7 @@
     §modMenuItem:hover,
     /* .icon-button_container_278u5:active, */
     /* .fixed-tools_mod-menu-item_1syXh:not(§modDisabled):hover, */
-    /* .color-button_swatch-icon_3ooIk, */
+    §colorButtonSwatch,
     §largeSwatchIcon
     /* §highlighted.button_button_u6SE2 */
     {
@@ -418,7 +418,6 @@
     §rightCard,
     §gradientPickerRow §swatch {border: none;}
     §spriteSoundSelectionContainerWrapper §box {border-left: none;}
-    .stage-header_stage-button-toggled-off_AJ8yG,
     .sprite-info_radio-wrapper_1OHDS div {filter: none;}
     
     /* Transparent */
@@ -464,7 +463,6 @@
     §featuredExtensionMetadataDetail img,
     §modToolSelect:not(.tool-select-base_is-selected_3x4kL) img,
     §modeToolsIcon,
-    .stage-header_stage-button-toggled-off_AJ8yG img,
     §stageSizeRow > div:last-child img,
     §stageMenuWrapper > span:last-child img,
     §swatchRow > :last-child img,
