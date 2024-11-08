@@ -28,16 +28,25 @@ class CssFile {
     private async resolveFileReferences(source: string): Promise<string> {
         const FILE_REFERENCE_REGEX = /^([ \t]*?)\/\*\[\"(.*?)\"\]\*\//m;
 
+        const readUrls: string[] = [];
         let match: RegExpExecArray | null;
         while ((match = FILE_REFERENCE_REGEX.exec(source)) !== null) {
             const whitespace = match[1];
             const url = match[2];
+            
+            if (readUrls.includes(url)) {
+                source = source.replace(FILE_REFERENCE_REGEX,  whitespace + "/*[<Error: recursive file reference detected>]*/");
+                console.log(`Warning: recursive file reference '${url}' detected in ${this.filePath}`);
+                continue;
+            }
+
             try {
                 const fileContent = await readFile(dirname(this.filePath), url);
                 const indentedFileContent = whitespace + fileContent.replaceAll("\n", `\n${whitespace}`);
                 source = source.replace(FILE_REFERENCE_REGEX, indentedFileContent);
+                readUrls.push(url);
             } catch (err) {
-                source = source.replace(FILE_REFERENCE_REGEX, "/*[<Error: could not resolve file reference>]*/");
+                source = source.replace(FILE_REFERENCE_REGEX, whitespace + "/*[<Error: could not resolve file reference>]*/");
                 console.log(`Warning: could not resolve file reference '${url}' in ${this.filePath}`);
             }
         }
