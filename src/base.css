@@ -1,0 +1,395 @@
+@-moz-document regexp("^((https?:\\/\\/)?scratch\\.mit\\.edu\\/projects\\/(\\d*\\/)?(editor|fullscreen).*)$") {
+    /*[[theme]]*/
+    
+    /*-- SHADES --*/
+    .Popover-body, §dropdown
+    {
+        border-color: var(--c00) !important;
+    }
+    .Popover-tipShape
+    {
+        stroke: var(--c00)
+    }
+    
+    .blocklyFlyoutBackground
+    {
+        fill: var(--c01); fill-opacity: 0.5;
+    }
+    
+    §tab[aria-selected=true],
+    §spriteSelectorItemSelected §spriteInfo,
+    §stageSelector§stageSelectorSelected §header,
+    §stageHeaderWrapperOverlay §stageButton,
+    §swatchRow §clickable§swatch,
+    §modEditField:active,
+    §modeToolsIcon:active,
+    §modOpen,
+    §canvasContainer,
+    §modMenuItem:hover,
+    /* .icon-button_container_278u5:active, */
+    /* .fixed-tools_mod-menu-item_1syXh:not(§modDisabled):hover, */
+    §colorButtonSwatch,
+    §largeSwatchIcon
+    /* §highlighted.button_button_u6SE2 */
+    {
+        background-color: var(--c02) !important;
+    }
+    §spriteSelectorItem§spriteSelectorItemSelected,
+    §stageSelector§isSelected,
+    §menuBarPosition,
+    §canvasContainer,
+    §headerButtons,
+    §headerItem§headerItemTitle,
+    §image,
+    §stageSelector:hover,
+    §libraryItem,
+    §spriteSelectorItem:hover,
+    §stageHeaderWrapperOverlay,
+    §inputForm,
+    §spriteInfoHeader §inputForm,
+    §soundEditorRow §inputForm,
+    §titleField,
+    §filter,
+    §variableNameTextInput,
+    /* .sprite-info_radio-wrapper_1OHDS div, */
+    §costumeEditorButtonGroup span,
+    §buttonGroup button,
+    §bitmapButton
+    {
+        border-color: var(--c02) !important;
+    }
+    
+    §spriteInfoHeader,
+    §header,
+    §backpackHeader,
+    §costumesSoundEditorBackground,
+    §workspace .blocklySvg,
+    §optionCard,
+    §activityArea,
+    .connection-modal_body_3YO9j,
+    .blocklyDropDownDiv[style*="background-color: rgb(255, 255, 255)"],
+    .Popover-body,
+    .Popover-tipShape,
+    §sprite:not(§spriteSelectorItemSelected):hover,
+    §spriteSelectorItem:not(§spriteSelectorItemSelected):hover,
+    §reactTabsTab:not(§reactTabsTabSelected):hover,
+    §image,
+    §backpackItem:hover > div,
+    §libraryItem:hover {
+        background-color: var(--c03) !important;
+    }
+    .Popover-body,
+    .Popover-tipShape {
+        fill: var(--c03) !important;
+    }
+    §stage§fullScreen,
+    §optionCard:hover {
+        border-color: var(--c03) !important;
+    }
+    
+    §libraryItem,
+    §menuBarPosition,
+    §menu,
+    §spriteSelectorItem,
+    .modal_header_1h7ps,
+    §headerButtons,
+    §leftCard::after,
+    §rightCard::after,
+    §tab,
+    §stageButton,
+    §spriteSelectorItem§spriteSelectorItemSelected,
+    §stageSelector,
+    §meterContainer,
+    §visualizationContainer > :last-child,
+    §backpackItem > div,
+    §mask,
+    §rerecordButton,
+    §deck,
+    §stageHeaderWrapperOverlay,
+    §variableNameTextInput,
+    §spriteInfoHeader §inputForm,
+    .sprite-info_radio-wrapper_1OHDS div,
+    §buttonGroup button {
+        background-color: var(--c04) !important;
+    }
+    
+    §bitmapButton,
+    §backpackList,
+    §background,
+    §bodyWrapper,
+    .scratchCategoryMenu,
+    .blocklyToolboxDiv,
+    §spriteSelector,
+    §listVariableModalBody,
+    §customBlockModalBody,
+    §bottomArea,
+    §body§box,
+    §stepBody,
+    §leftCard,
+    §rightCard,
+    §libraryScrollGrid,
+    §spriteSoundSelectionContainerWrapper > :first-child,
+    §recordModalBody,
+    §stageFullWrapperFullscreen,
+    §inputForm,
+    §spriteInfoHeader §inputForm,
+    §soundEditorRow §inputForm,
+    §titleField,
+    §filter,
+    .sprite-info_radio-wrapper_1OHDS .sprite-info_is-active_ewF6e,
+    §costumeEditorButtonGroup span,
+    §buttonGroup button:not([disabled]) {
+        background-color: var(--c05) !important
+    }
+    .blocklyFlyoutCheckbox.checked {
+        fill: var(--c05) !important;
+    }
+    
+    §titleField:hover,
+    §costumeEditorButtonGroup span:not(.button_mod-disabled_1rf31):hover,
+    §buttonGroup button:not([disabled]):hover,
+    §bitmapButton:hover {
+        background-color: var(--c06) !important;
+    }
+    .scratchCategoryMenuItem.categorySelected,
+    §filterBar,
+    §scrollWrapperDragging,
+    §titleField:focus {
+        background-color: var(--c07) !important;
+    }
+    
+    §cloudOption {
+        border-color: var(--c08) !important;
+    }
+    §tab,
+    .scratchColourPickerLabel,
+    §rowHeader,
+    §featuredExtensionRequirement,
+    §featuredExtensionCollaboration,
+    §fontDropdown,
+    .valueReportBox,
+    §colorButtonArrow {
+        color: var(--c08);
+        opacity: 1;
+    }
+    
+    .scratchCategoryMenuItemLabel,
+    §spriteInfoHeader,
+    §spriteInfo,
+    §headerTitle,
+    §label,
+    §count,
+    §backpackHeader,
+    §statusMessage,
+    §modalContent,
+    §optionTitle span,
+    §checkboxRow label span,
+    §stepTitle,
+    §libraryItemName,
+    §featuredDescription,
+    §inputLabel,
+    §editFieldTitle,
+    §inputLabel,
+    .icon-button_title_36ChS,
+    §deckName,
+    §inputForm,
+    §spriteInfoHeader §inputForm,
+    §soundEditorRow §inputForm,
+    §titleField,
+    §filter input,
+    §filter input::placeholder,
+    §variableNameTextInput {
+        color: var(--c09) !important;
+    }
+    .blocklyFlyoutLabelText,
+    .blocklyFlyoutButton .blocklyText {
+        fill: var(--c09) !important;
+    }
+    
+    .scratchCategoryMenuItem:hover .scratchCategoryMenuItemLabel,
+    .scratchCategoryMenuItem.categorySelected .scratchCategoryMenuItemLabel,
+    §okButton3:active,
+    §okButton:hover,
+    §okButton:active,
+    §okButton2:hover,
+    §okButton2:active,
+    §cancelButton:hover,
+    §cancelButton:active,
+    §cancelButton2:active,
+    §buttonRow§box button:first-child:hover,
+    §buttonRow§box button:first-child:active,
+    .fixed-tools_mod-menu-item_1syXh,
+    §inputForm:focus,
+    §spriteInfoHeader §inputForm:focus,
+    §soundEditorRow §inputForm:focus,
+    §titleField:focus,
+    §filter:focus-within input,
+    §filter:focus-within input::placeholder,
+    §variableNameTextInput:focus {
+        color: var(--c0A) !important;
+    }
+    
+    
+    /*-- SHADES (PARTIALLY TRANSPARENT) --*/
+    §outlineSwatch::after {background-color: var(--c10) !important;}
+    §stageButton,
+    .fixed-tools_button-group-button_2dq9z,
+    .divider_divider_1_Adi,
+    .stage_stage-overlay-content_ePv_6 {
+        border-color: var(--c10) !important;
+    }
+    .blocklyFlyoutButton .blocklyFlyoutButtonBackground { fill: var(--c10); }
+    §spriteSelectorItem§spriteSelectorItemSelected,
+    §stageSelector§stageSelectorSelected,
+    §optionCard:hover,
+    §activeSwatch {
+        box-shadow: 0px 0px 0px 4px var(--c10) !important;
+    }
+    
+    §card {box-shadow: 0px 5px 25px 10px var(--c11) !important;}
+    .blocklyFlyoutButton:hover .blocklyFlyoutButtonBackground {fill: var(--c11);}
+    §swatchRow §swatch,
+    .blocklyDropDownDiv {border: 1px solid var(--c11) !important}
+    .scratchEyedropper,
+    §colorPickerDivider {border-color: var(--c11);}
+    
+    §modalOverlay {background-color: var(--c12) !important;}
+    
+    §greenFlag:hover,
+    §stopAll:hover {background-color: var(--c13) !important;}
+    §greenFlag§greenFlagActive {background-color: var(--c14) !important;}
+    
+    /*-- SCRATCH BLOCKS --*/
+    /*["blocks.css"]*/
+    
+    /*-- DIALOGUE --*/
+    /* (YES / PROCEED) buttons */
+    §okButton2, §okButton3, §okButton, §recordModalOkButton {
+        border: 1px solid var(--c30) !important;
+        color: var(--c30) !important;
+        background: transparent !important;
+    }
+    §okButton2:hover, §okButton2:active, §okButton3:hover, §okButton3:active, §okButton:hover, §okButton:active, §recordModalOkButton:hover, §recordModalOkButton:active {
+        background: var(--c30) !important;
+        color: var(--c32) !important;
+    }
+    
+    /* (NO / CANCEL) buttons */
+    §cancelButton, §cancelButton2, §buttonRow§box button:first-child {
+        border: 1px solid var(--c31) !important;
+        color: var(--c31) !important;
+    }
+    §cancelButton:hover, §cancelButton:active, §cancelButton2:hover, §cancelButton2:active, §buttonRow§box button:first-child:hover, §buttonRow§box button:first-child:active {
+        background: var(--c31) !important;
+        color: var(--c32) !important;
+    }
+    
+    /*-- THEME COLORS --*/
+    /*[[customthemecolorsCSS]]*/
+    
+    /*-- SOUND LEVELS --*/
+    §red { fill: var(--c500); stroke: var(--c501); }
+    §yellow { fill: var(--c510); stroke: var(--c511); }
+    §green { fill: var(--c520); stroke: var(--c521); }
+    
+    /*-- MISCELLANEOUS COLORS --*/
+    /* Blockly workspace background */
+    #app .blocklySvg { background-color: var(--cwb) !important; }
+    #app .blocklyMainBackground { opacity: .2; }
+    
+    /*-- Background image --*/
+    /*[[backgroundImageCSS]]*/
+    
+    /*-- OTHER PROPERTIES --*/
+    /* None */
+    §card,
+    §leftCard,
+    §rightCard,
+    §gradientPickerRow §swatch {border: none;}
+    §spriteSoundSelectionContainerWrapper §box {border-left: none;}
+    .sprite-info_radio-wrapper_1OHDS div {filter: none;}
+    
+    /* Transparent */
+    §okButton2,
+    §okButton3,
+    §okButton,
+    §cancelButton,
+    §cancelButton2,
+    §buttonRow§box button:first-child,
+    §newButtons,
+    §unselectWrapper {background-color: transparent !important;}
+    §outlineSwatch::after,
+    §roundButton {border-color: transparent !important;}
+    §workspace .blocklyMainBackground {stroke: transparent;}
+    §newButtons::before {
+        background: -webkit-linear-gradient(transparent, var(--c04));
+        background: -o-linear-gradient(transparent, var(--c04));
+        background: linear-gradient(transparent, var(--c04));
+    }
+    
+    .sprite-info_radio-wrapper_1OHDS div:not(.sprite-info_is-active_ewF6e) img {filter: saturate(0) brightness(.8);}
+    
+    §stageButton,
+    §canvasContainer,
+    §bitmapButton,
+    §filter {
+        border: 1px solid
+    }
+    §stageSelector§stageSelectorSelected,
+    §optionCard:hover {
+        border: 2px solid
+    }
+    §menuBarPosition,
+    §headerButtons,
+    §headerItem§headerItemTitle,
+    §stageButton, §canvasContainer, §bitmapButton, §filter {border: 1px solid}
+    §stageSelector§stageSelectorSelected, §optionCard:hover {border: 2px solid}
+    §menuBarPosition, §headerButtons, §headerItem§headerItemTitle, §stageHeaderWrapperOverlay {border-bottom: 2px solid}
+    
+    §clickable§swatch { padding: 4px; }
+    §bitmapButton {line-height: 1.25rem;}
+    
+    §featuredExtensionMetadataDetail img,
+    §modToolSelect:not(.tool-select-base_is-selected_3x4kL) img,
+    §modeToolsIcon,
+    §stageSizeRow > div:last-child img,
+    §stageMenuWrapper > span:last-child img,
+    §swatchRow > :last-child img,
+    §rowPrimary §iconWrapper img,
+    §buttonGroupButtonIcon
+    {
+        -webkit-filter: grayscale(100%) brightness(1.2);
+        -moz-filter: grayscale(100%) brightness(1.2);
+        -o-filter: grayscale(100%) brightness(1.2);
+        filter: grayscale(100%) brightness(1.2);
+    }
+    .stage_stage-wrapper-overlay_fmZuD {
+        top: calc(2.75rem + 2px)
+    }
+    
+    §swatch,
+    §colorButtonSwatch {
+        display: block;
+    }
+    .color-button_swatch-icon_3ooIk {
+        width: calc(100% + 2px) !important;
+        height: calc(100% + 2px) !important;
+        transform: translateX(-1px) translateY(-1px);
+        border-top-left-radius: 3px;
+        border-bottom-left-radius: 3px;
+        padding: 3px;
+        border: 1px solid rgba(0, 0, 0, 0.25);
+    }
+    §largeSwatchIcon {
+        width: calc(100% + 8px) !important;
+        height: calc(100% + 8px) !important;
+        transform: translateX(-4px) translateY(-4px);
+        box-sizing: border-box;
+        border-radius: 3px;
+        padding: 3px;
+        border: 1px solid rgba(0, 0, 0, 0.25);
+    }
+    
+    §scrollWrapperDragging {transition: background-color .2s ease-in-out;}
+    §filter {transition: border-color .2s ease-in-out;}
+}

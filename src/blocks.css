@@ -1,0 +1,112 @@
+/* Motion */
+[fill="#4C97FF"], [fill="#4280D7"], [fill="#3373CC"] {stroke: var(--c201);}
+[fill="#4C97FF"] {fill: var(--c200);}
+[fill="#4280D7"] {fill: var(--c202);}
+[fill="#3373CC"] {fill: var(--c201);}
+.blocklyDropDownDiv[style*="background-color: rgb(76, 151, 255)"] {
+    background-color: var(--c200) !important;
+    border-color: var(--c201) !important;
+    color: white;
+}
+
+/* Looks */
+[fill="#9966FF"], [fill="#855CD6"], [fill="#774DCB"] {stroke: var(--c211);}
+[fill="#9966FF"] {fill: var(--c210);}
+[fill="#855CD6"] {fill: var(--c212);}
+[fill="#774DCB"] {fill: var(--c211);}
+.blocklyDropDownDiv[style*="rgb(153, 102, 255)"] {
+    background-color: var(--c210) !important;
+    border-color: var(--c211) !important;
+    color: white;
+}
+
+/* Sound */
+[fill="#CF63CF"], [fill="#C94FC9"], [fill="#BD42BD"] {stroke: var(--c221);}
+[fill="#CF63CF"] {fill: var(--c220);}
+[fill="#C94FC9"] {fill: var(--c222);}
+[fill="#BD42BD"] {fill: var(--c221);}
+.blocklyDropDownDiv[style*="background-color: rgb(207, 99, 207)"] {
+    background-color: var(--c220) !important;
+    border-color: var(--c221) !important;
+    color: white;
+}
+
+/* Events */
+[fill="#FFBF00"], [fill="#E6AC00"], [fill="#CC9900"] {stroke: var(--c231);}
+[fill="#FFBF00"] {fill: var(--c230);}
+[fill="#E6AC00"] {fill: var(--c232);}
+[fill="#CC9900"] {fill: var(--c231);}
+.blocklyDropDownDiv[style*="background-color: rgb(255, 191, 0)"] {
+    background-color: var(--c230) !important;
+    border-color: var(--c231) !important;
+    color: white;
+}
+
+/* Control */
+[fill="#FFAB19"], [fill="#EC9C13"], [fill="#CF8B17"] {stroke: var(--c241);}
+[fill="#FFAB19"] {fill: var(--c240);}
+[fill="#EC9C13"] {fill: var(--c242) !important;}
+[fill="#CF8B17"] {fill: var(--c241) !important;}
+.blocklyDropDownDiv[style*="background-color: rgb(255, 171, 25)"] {
+    background-color: var(--c240) !important;
+    border-color: var(--c241) !important;
+    color: white;
+}
+
+/* Sensing */
+[fill="#5CB1D6"], [fill="#47A8D1"], [fill="#2E8EB8"] {stroke: var(--c251);}
+[fill="#5CB1D6"] {fill: var(--c250);}
+[fill="#47A8D1"] {fill: var(--c252);}
+[fill="#2E8EB8"] {fill: var(--c251);}
+.blocklyDropDownDiv[style*="background-color: rgb(92, 177, 214)"] {
+    background-color: var(--c250) !important;
+    border-color: var(--c251) !important;
+    color: white;
+}
+
+/* Operators */
+[fill="#59C059"], [fill="#389438"] {stroke: var(--c261);}
+[fill="#59C059"] {fill: var(--c260);}
+[fill="#389438"] {fill: var(--c261);}
+.blocklyDropDownDiv[style*="background-color: rgb(89, 192, 89)"] {
+    background-color: var(--c260) !important;
+    border-color: var(--c261) !important;
+    color: white;
+}
+
+/* Vars */
+[fill="#FF8C1A"], [fill="#DB6E00"] {stroke: var(--c271);}
+[fill="#FF8C1A"] {fill: var(--c270);}
+[fill="#DB6E00"] {fill: var(--c271);}
+.blocklyDropDownDiv[style*="background-color: rgb(255, 140, 26)"] {
+    background-color: var(--c270) !important;
+    border-color: var(--c271) !important;
+    color: white;
+}
+
+/* Lists */
+[fill="#FF661A"], [fill="#E64D00"] {stroke: var(--c281);}
+[fill="#FF661A"] {fill: var(--c280);}
+[fill="#E64D00"] {fill: var(--c281);}
+.blocklyDropDownDiv[style*="background-color: rgb(255, 102, 26)"] {
+    background-color: var(--c280) !important;
+    border-color: var(--c281) !important;
+    color: white;
+}
+
+/* Custom */
+[fill="#FF6680"], [fill="#FF3355"], [fill="#FF4D6A"] {stroke: var(--c291);}
+[fill="#FF6680"] {fill: var(--c290);}
+[fill="#FF3355"] {fill: var(--c291);}
+[fill="#FF4D6A"] {fill: var(--c292);}
+
+/* Extensions */
+[fill="#0FBD8C"], [fill="#0DA57A"], [fill="#0B8E69"] {stroke: var(--c2A1);}
+[fill="#0FBD8C"] {fill: var(--c2A0);}
+[fill="#0DA57A"] {fill: var(--c2A2);}
+[fill="#0B8E69"] {fill: var(--c2A1);}
+.blocklyDropDownDiv[style*="background-color: rgb(15, 189, 140)"] {
+    background-color: var(--c2A0) !important;
+    border-color: var(--c2A1) !important;
+    color: white;
+}
