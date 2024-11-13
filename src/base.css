@@ -7,28 +7,7 @@
     }
 
     /*["modules/blocks.css"]*/
-    
-    /*-- DIALOGUE --*/
-    /* (YES / PROCEED) buttons */
-    §okButton2, §okButton3, §okButton, §recordModalOkButton {
-        border: 1px solid var(--c30) !important;
-        color: var(--c30) !important;
-        background: transparent !important;
-    }
-    §okButton2:hover, §okButton2:active, §okButton3:hover, §okButton3:active, §okButton:hover, §okButton:active, §recordModalOkButton:hover, §recordModalOkButton:active {
-        background: var(--c30) !important;
-        color: var(--c32) !important;
-    }
-    
-    /* (NO / CANCEL) buttons */
-    §cancelButton, §cancelButton2, §buttonRow§box button:first-child {
-        border: 1px solid var(--c31) !important;
-        color: var(--c31) !important;
-    }
-    §cancelButton:hover, §cancelButton:active, §cancelButton2:hover, §cancelButton2:active, §buttonRow§box button:first-child:hover, §buttonRow§box button:first-child:active {
-        background: var(--c31) !important;
-        color: var(--c32) !important;
-    }
+    /*["modules/dialog.css"]*/
     
     /*-- THEME COLORS --*/
     /*[[customthemecolorsCSS]]*/
