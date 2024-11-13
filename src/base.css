@@ -2,7 +2,9 @@
     /*[[theme]]*/
 
     /*-- GENERAL --*/
-    §background {
+    /* Editor / loading screen background */
+    §background,
+    §bodyWrapper {
         background-color: var(--c05);
     }
 
