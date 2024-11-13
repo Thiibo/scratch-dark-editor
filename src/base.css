@@ -65,7 +65,6 @@
     §optionCard:hover {
         border: 2px solid
     }
-    §menuBarPosition,
     §headerButtons,
     §headerItem§headerItemTitle,
     §stageButton, §canvasContainer, §bitmapButton, §filter {border: 1px solid}
