@@ -5,6 +5,16 @@
 
 ![Banner](meta/banner.png "Banner")
 
+## End of development
+I started this project a long time ago because I made heavy use of the Scratch editor: I created many projects, most of which didn't ever get finished or publicly released. Since I was also getting into web development back then, it made sense for me to style the editor and learn CSS (the coding language in which you define the alternative styling) along the way. By doing that, I not only improved my coding skills outside the blocky coding nature of Scratch, but it also led me to an overall nicer editing experience with the dark styling when I did actually use the editor. When I saw many people asking for a dark mode on the forums, it just made sense for me to publish my work and let others enjoy it too.
+
+Since then, I've gotten significantly better at programming and I've lost most of my interest in Scratch. It doesn't make sense for me to keep updating this userstyle and to repair it every time it breaks (a.k.a. whenever the Scratch team decides to push an update to their editor, changing the CSS class names and therefore also invalidating my styling). I just don't use Scratch enough for it to be worth my time and I'm not actually learning anything new by keeping it up-to-date, unfortunately.
+
+Besides, there are other alternatives now. [Scratch Addons](https://scratchaddons.com/) provides the dark mode experience, and more, with more customisability and flexibility. Due to the nature of it being an extension on its own, it's also way more powerful so it can style and change things in ways this userstyle never could. And if you don't want that, maybe there are some other developers out there who created a more up-to-date style, just waiting for you to install and enjoy it. You'd never know until you check ;)
+
+Thanks for everything!<br>
+~ Thiibo
+
 ## Important note
 This repository is intended to keep track of all changes made to my userstyle called 'Scratch Dark Editor' since update 3.0.0. I am welcome to any feedback regarding how the style could be improved. Do note that since this is a userstyle, it can only really make use of CSS to make changes to the editor. If you are looking for a way to add more features (like higher fps for your project), I advice you to look elsewhere. There are many other extensions and websites that will do exactly that. This project is only meant to alter the appearance of the editor, but not to add any further changes. To also make the website itself look somewhat darker, I would like to suggest you to try [Dark Theme for Scratch](https://userstyles.org/styles/173170/dark-theme-for-scratch), a userstyle made by [Eribetra](https://userstyles.org/users/565409).
 
